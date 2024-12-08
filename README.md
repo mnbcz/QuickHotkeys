@@ -6,7 +6,7 @@ Program review on YouTube.
 To install, install latest release
 
 - Quick copy and paste text.
-- Move the window anywhere. And resize.
+- Move the window by anywhere. And resize.
 - Disables the Win and Alt keys, so that interfering windows no longer appear.
 - Move to the beginning and end of the page, close tabs, move through tabs, close the window, minimize the window, via the mouse wheel.
 - Conveniently move the cursor to the beginning and end of the line. Erase all text on the line.
