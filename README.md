@@ -3,7 +3,8 @@ A lot of hotkeys that are very necessary for quick and easy work.
 Managing windows, and writing text, code - becomes much easier and faster.
 Contains a lot of functionality, a lot of different necessary scripts, in one program.
 Program review on YouTube.
-To install, install [latest release](https://github.com/mnbcz/QuickHotkeys/releases).
+
+**To install**, install [latest release](https://github.com/mnbcz/QuickHotkeys/releases).
 
 - Quick copy and paste text.
 - Move the window by anywhere. And resize.
