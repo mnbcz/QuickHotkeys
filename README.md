@@ -3,6 +3,7 @@ A lot of hotkeys that are very necessary for quick and easy work.
 Managing windows, and writing text, code - becomes much easier and faster.
 Contains a lot of functionality, a lot of different necessary scripts, in one program.
 Program review on YouTube.
+To install, install latest release
 
 - Quick copy and paste text.
 - Move the window anywhere. And resize.
