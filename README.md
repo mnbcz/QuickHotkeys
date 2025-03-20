@@ -1,23 +1,34 @@
-This adds a lot of missing functionality to Windows.
-A lot of hotkeys that are very necessary for quick and easy work.
-Managing windows, and writing text, code - becomes much easier and faster.
-Contains a lot of functionality, a lot of different necessary scripts, in one program.
-Program review on YouTube.
+# Speed ​​up productivity through QuickHotkeys (easy window and browser management, fast typing) 
 
-**To install**, install [latest release](https://github.com/mnbcz/QuickHotkeys/releases).
+This thing is simply necessary to work professionally, and quickly. Freely and easily manage windows and the browser.
+Comes from the word - fast work, fast typing. Do all things quickly.
 
-- Quick copy and paste text.
-- Move the window by anywhere. And resize.
-- Disables the Win and Alt keys, so that interfering windows no longer appear.
-- Move to the beginning and end of the page, close tabs, move through tabs, close the window, minimize the window, via the mouse wheel.
-- Conveniently move the cursor to the beginning and end of the line. Erase all text on the line.
-- Display the window always on top.
-- Set transparency for any window.
-- Remove the window title.
-- Sticky keys function. Modifier keys stick for one second, so it is not necessary to hold all the keys at the same time.
-- You can disable any hotkey, or assign another key combination.
-- Adding aliases for hotkeys.
-- Disabling hotkeys.
-- Function for fixing damaged video files. Fixing files where the thumbnail preview is not displayed.
-- Setting a thumbnail for video files.
-- And much more.
+> **To install**, install [latest release](https://github.com/mnbcz/QuickHotkeys/releases).
+
+What does this program do?
+Better watch a video about it.
+There are many different things, it doesn't just do one thing. It installs a lot of necessary functionality that is not initially available.
+Here is everything.
+
+Here is some: 
+- Mouse gestures. 
+- Moving windows. 
+- Changing the size of windows. 
+- Snapping, sticking windows.
+- Convenient hotkeys for managing windows and tabs.
+- Sticky keys.
+- Remembering window sizes.
+- Disabling the Taskbar.
+- Fast, convenient browser management.
+- Fixing damaged files and meta tags.
+- And much, much more.
+
+> The program always runs in the tray. And it starts automatically when loading the OS.
+
+Just install and check all the features of the program.
+After installation, in the program, in the tray, right-click and select in the menu - Settings, and there will be a description of each module, how it works, what it does.
+
+> The program is absolutely safe and does not damage the system.
+Does not contain viruses or adware.
+Does not leave any traces.
+
