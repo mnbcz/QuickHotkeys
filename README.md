@@ -7,9 +7,9 @@ Comes from the word - fast work, fast typing. Do all things quickly.
 
 What does this program do?
 Better watch a video about it.
-There are many different things, it doesn't just do one thing. It installs a lot of necessary functionality, more than 40+ programs and scripts. Here is everything.
+It installs a lot of necessary functionality, more than 40+ programs, scripts, and Hotkeys. Here is everything.
 
-Here is some: 
+This is some: 
 - Mouse gestures. 
 - Moving windows. 
 - Changing the size of windows. 
