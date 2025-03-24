@@ -1,4 +1,4 @@
-# QuickHotkeys - Speed ​​up productivity (easy window and browser management, fast typing, mouse gestures) 
+# Quick Hotkeys - Move & Resize windows, fast typing, mouse gestures, remember window sizes, scroll tabs by wheel, Sticky Keys
 
 This thing is simply necessary to work professionally, and quickly. Freely and easily manage windows and the browser.
 Comes from the word - fast work, fast typing. Do all things quickly.
