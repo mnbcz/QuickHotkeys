@@ -6,7 +6,7 @@ Comes from the word - fast work, fast typing. Do all things quickly.
 > **To install**, install [latest release](https://github.com/mnbcz/QuickHotkeys/releases).
 
 What does this program do?
-Better watch a video about it.
+Better watch a video about it on [Youtube](https://www.youtube.com/playlist?list=PLVkS_eTsfH-sEFw55o5UkRK7uMNIyICXb).
 It installs a lot of necessary functionality, more than 40+ programs, scripts, and Hotkeys. Here is everything.
 
 This is some: 
