@@ -1,9 +1,9 @@
-# QuickHotkeys - best tool for Move & Resize Windows easily, Mouse Gestures to Improve productivity In Windows, remember window sizes, scroll tabs by wheel, Sticky Keys, ...
+# QuickHotkeys - best tool for Move & Resize Windows easily for Windows 11, Mouse Gestures to Improve productivity In Windows, remember window sizes, scroll tabs by wheel, Sticky Keys, ...
 
-How to easily move windows by clicking anywhere in the window?, or move a window full of tabs on top, so there is nowhere to click?
+How to easily **move windows** by clicking anywhere in the window?, or move a window full of tabs on top, so there is nowhere to click?
 The best solution is to use this program QuickHotkeys. This is the best solution on the Internet for quickly moving windows and resizing.
 Changing the size of the window is very simple, you just need to click with two mouse buttons.
-Move the window with two mouse buttons, clicking anywhere in the window.
+It's very simple to Move window with two mouse buttons.
 
 In addition, the window can be made sticky to other windows, to the edges of the screen, and to the middle of the screen.
 There are also many many more additional productivity features.
