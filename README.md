@@ -1,7 +1,16 @@
-# Quick Hotkeys - Move & Resize windows, fast typing, mouse gestures, remember window sizes, scroll tabs by wheel, Sticky Keys
+# QuickHotkeys - best tool for Move & Resize Windows easily, Mouse Gestures to Improve productivity In Windows, remember window sizes, scroll tabs by wheel, Sticky Keys, ...
+
+How to easily move windows by clicking anywhere in the window?, or move a window full of tabs on top, so there is nowhere to click?
+The best solution is to use this program QuickHotkeys. This is the best solution on the Internet for quickly moving windows and resizing.
+Changing the size of the window is very simple, you just need to click with two mouse buttons.
+Move the window with two mouse buttons, clicking anywhere in the window.
+
+In addition, the window can be made sticky to other windows, to the edges of the screen, and to the middle of the screen.
+There are also many many more additional productivity features.
+Mouse Gestures for quick control of various actions, scrolling tabs, closing tabs, saving a file, and so on.
 
 This thing is simply necessary to work professionally, and quickly. Freely and easily manage windows and the browser.
-Comes from the word - fast work, fast typing. Do all things quickly.
+Comes from the word - Do all things quickly.
 
 > **To install**, install [latest release](https://github.com/mnbcz/QuickHotkeys/releases).
 
