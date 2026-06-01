@@ -1,0 +1,20 @@
+# VS Code
+.vscode/
+QuickHotkeys/Art/
+QuickHotkeys/NSIS/
+QuickHotkeys/QuickHotkeys.exe.manifest
+QuickHotkeys/appDataDir/WebViewUserData/EBWebView/**
+!QuickHotkeys/appDataDir/WebViewUserData/EBWebView/.gitkeep
+
+# Логи
+QuickHotkeys/*.log
+QuickHotkeys/log.txt
+
+# Скомпилированные файлы
+QuickHotkeys/*.exe
+
+
+# Временные файлы Windows
+Thumbs.db
+Desktop.ini
+

@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: x-large;
+  background-color: rgb(112, 165, 79);
+
+}
+
+
+.form{
+  padding: 10px 20px;
+  font-size: x-large;
+  color: #114308;
+  /* background-color: rgb(9, 107, 172); */
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+input{
+  flex-grow: 1;
+  font-size: x-large;
+  height: 49px;
+  line-height: 1;
+  margin-top: 10px;
+  border-radius: 40px;
+  outline: none;
+  padding: 0 20px;
+  background-color: rgb(144, 199, 124);
+  border: 1px solid black;
+  border-color: rgb(48, 89, 18);
+  box-shadow:inset 0px 0px 4px #000;
+}
+
+[type="file"]{
+  display: none;
+}
+.custom-file-upload{
+  border: 1px solid #208638;
+  display: inline-block;
+  margin: auto ;
+  padding: 1px 12px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+button{
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: inherit;
+  color: #8ab28a;
+  border-radius: 40px;
+  background-color: rgb(55, 125, 11);
+  display: inline-block;
+  height: 49px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 2px 1px 1px #000000b4;
+  line-height: 100%;
+}
+
+button:hover{
+  background-color: rgb(57, 130, 12);
+}
+
+button:active{
+  box-shadow: 0 1px 1px 0px #000000b4;
+}
+
+.error{
+  color: #852323;
+}
+
+.loading{
+  height: 60%;
+  line-height: 100%;
+  vertical-align: middle;
+  margin: auto;
+}

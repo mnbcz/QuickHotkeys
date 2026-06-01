@@ -1,0 +1,213 @@
+/*👉
+@font-face { 
+    font-family: "Hurmit"; 
+    src: url('../../www/HurmitNerdFont-Regular.otf'); 
+}
+@font-face { 
+    font-family: "Hurmit"; 
+    src: url('../../www/HurmitNerdFont-Bold.otf'); 
+    font-weight: bold;
+}
+👈*/
+
+
+body {
+  padding: 20px;
+  font-size: 19px;
+  /* background-color: #8BB472; */
+  background: rgb(128, 175, 99);
+  background: radial-gradient(circle, rgba(128, 175, 99, 1) 0%, rgba(152, 196, 125, 1) 100%);
+  /* font-family: "Hurmit";  */
+  /* font-family: "Hurmit Nerd Font";  */
+}
+
+.hotkeyDiv {
+  position: relative;
+  /* background-color: rgb(27, 84, 128); */
+
+  background: rgb(118, 160, 92);
+  background: radial-gradient(circle, rgba(118, 160, 92, 1) 0%, rgba(140, 179, 116, 1) 100%);
+
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.687);
+  /* border: solid 1px red; */
+}
+
+.title_div {
+  margin-bottom: 10px;
+}
+
+.title_inline {
+  font-weight: bold;
+  background-color: #749560;
+  padding: 0 10px;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+
+}
+
+.hotkeyDiv_disable {
+  /* color: rgb(113, 109, 116); */
+  background-color: rgb(34, 87, 134);
+  /* Отключаем курсор, так чтобы нельзя было нажать на флажки. */
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+
+.desc {
+  margin-bottom: 12px;
+}
+
+
+/* Контейнер для клавиш модификаторов. */
+.modsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.modKey {
+  /* background-color: blueviolet; */
+  margin-right: 6px;
+}
+
+.textkey {
+  margin-left: 10px;
+  margin-right: 10px !important;
+  font-size: 27px;
+  width: 180px !important;
+  min-width: 40px;
+}
+
+.alias {
+  margin-right: 20px !important;
+}
+
+
+/* Переключатель отключить хоткей справа */
+.switch {
+  pointer-events: all !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 6px;
+}
+
+.form-switch {
+  display: inline-block;
+}
+
+/* Переключатель отключить хоткей справа */
+.form-switch .form-check-input:checked {
+  background-color: #6cc628;
+  border-color: #3b8921;
+  border: none;
+  /* background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>"); */
+}
+
+.delete {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+/* Кнопка success */
+.btn-success,
+.btn-success:hover,
+.btn-success:active {
+  color: #cde7a9;
+}
+
+.btn-success {
+  background-color: #48ad26;
+}
+
+.btn-success:hover {
+  background-color: #59b43a;
+}
+
+.btn-success:active {
+  background-color: #4d9d32;
+}
+
+.btn-success:visited {
+  background-color: #4d9d32;
+}
+
+
+/*👉select.form-select{
+    ➡ width: min-content; ⬅
+    ➡ min-width: auto; ⬅
+    width: 100%;
+    margin-right: 20px;
+}👈*/
+
+/*👉select.rowSelect{
+    display: inline-block;
+    width: min-content;
+    min-width: 400px;
+    margin-left: 10px;
+}
+👈*/
+
+
+
+
+/* =========================================================== */
+
+/*👉#drawOnScreen h4{
+    margin-top: 19px;
+    color: rgb(7, 147, 81);
+}
+
+.inline-text-hotkey{
+    margin-bottom: 4px;
+    vertical-align: baseline;
+}👈*/
+
+/* Текстовое поле для hotkeys */
+/*👉.inline-text-hotkey input{
+    display: inline;
+    width: 170px;
+    vertical-align: top;
+}👈*/
+
+/*👉.inline-text-hotkey label{
+    display: inline-block;
+    margin-right: 10px;
+}👈*/
+
+input[type=text].form-control {
+  background-color: #698658;
+  font-size: 20px;
+  border-radius: 30px;
+  border: solid 1px #102E46;
+  color: #9ac382;
+}
+
+.hotkeyAlias {
+  background-color: #698658;
+  font-size: 20px;
+  /* border-radius: 30px; */
+  border-radius: 10px;
+  border: solid 1px #102E46;
+  color: #9ac382;
+  padding: 0px 20px;
+  margin: 0;
+  height: 40px;
+  width: 260px;
+}
+
+.aliasArrow {
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.selectList {
+  margin: 16px 0;
+}

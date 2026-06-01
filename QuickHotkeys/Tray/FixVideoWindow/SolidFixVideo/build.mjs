@@ -1,0 +1,15 @@
+import { build } from "esbuild";
+import { solidPlugin } from "esbuild-plugin-solid";
+
+build({
+  entryPoints: ["src/index.jsx"],
+  bundle: true,
+  outfile: "www/main.js",
+  minify: false,
+  loader: {
+    ".svg": "dataurl",
+  },
+  logLevel: "info",
+  plugins: [solidPlugin()],
+}).catch(() => process.exit(1));
+

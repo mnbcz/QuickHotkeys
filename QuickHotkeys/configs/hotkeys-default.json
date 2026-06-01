@@ -1,0 +1,576 @@
+[
+  {
+    "id": "linkClick",
+    "type": "noHotkey",
+    "title": "Click on links",
+    "desc": "If the cursor is on a link, then if you first press and hold the <kbd>right mouse button</kbd>, then the <kbd>left mouse button</kbd>, it will load the page in a new inactive tab (you can go to the tab later). <br>Conversely, if you first press and hold the <kbd>left mouse button</kbd>, then the <kbd>right mouse button</kbd>, it will load the page in a new tab, and go there.",
+    "isEnable": 1,
+    "function": "linkClick_setHotkeys"
+  },
+  {
+    "id": "Move_resize_window_with_left_right_mouse_button",
+    "type": "noHotkey",
+    "title": "Move & Resize window",
+    "desc": "This allows you to move the window by any place (not only by the Titlebar). Resize by clicking near the edge of the window (not necessarily exactly on the border itself). Align windows on a line, stick to other windows, and the middle of the screen. <br>Simultaneous pressing of the <kbd>left</kbd> and <kbd>right</kbd> mouse buttons, turns on the <kbd>window moving mode</kbd>, or <kbd>window resizing</kbd>. Then, if only the <kbd>left</kbd> button is held down, then this moves the window. If only the <kbd>right</kbd> button is held down, then this changes the window size. <br/>If hold down <kbd>Ctrl</kbd> while moving, the window will move straight, vertically, or horizontally. By holding down only <kbd>Ctrl</kbd> and releasing the <kbd>left</kbd> mouse button, you can move the window again by pressing the <kbd>left</kbd> mouse button. <br> If <kbd>LShift</kbd> is held down, the window will snap to the edges of the screen, to the middle of the screen, and to the edges of windows. If hold down <kbd>LShift</kbd>, you can release the <kbd>left mouse button</kbd>, and move the window by another place again, by holding down left mouse button. <br>When the window is in resize mode, the following hotkeys exist:<br>If you click in the middle of the window, it centers the window in the <kbd>middle of the screen</kbd>, and changes the size on both sides, left and right. <br>If you roll the <kbd>wheel down</kbd> (holding the right mouse button), the window expands to full screen height. If you roll the <kbd>wheel down</kbd> again, it restores the window to its previous size. <br>Same thing for width. If you turn the <kbd>wheel up</kbd>, the window expands to the full width of the screen. If you turn the <kbd>wheel up</kbd> again, it returns to its previous size.<br><br><b>Note!</b> This does not work if the cursor is on the link. Instead, when you click the <kbd>left</kbd> and <kbd>right</kbd> mouse buttons at the same time, it assigns - <kbd>Open link in a new inactive tab</kbd>, or in a <kbd>new active tab</kbd>. Depending on what was clicked first.",
+    "isEnable": 1,
+    "function": "move_resize_window_with_left_right_mouse_button_setHotkeys"
+  },
+  {
+    "id": "minimizeMaximizeWindowByModWheel",
+    "type": "noHotkey",
+    "title": "Minimize & Maximize window by Key & Wheel",
+    "desc": "Holding down the modifier key below (<kbd>LWin</kbd> by default), and turning the <kbd>wheel</kbd>, it maximizes or minimizes the window. If turn the wheel twice, it goes into full-screen.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LWin",
+    "hotkeyModifiers": "<#",
+    "function": "minimizeMaximizeWindowByModAndWheel_SetHotkeys",
+    "sc": "Wheel",
+    "index": 2,
+    "scope": "Wheel"
+  },
+  {
+    "id": "minimizeMaximizeBackWindowsByWheel",
+    "type": "noHotkey",
+    "title": "Minimize/maximize all windows on the screen, except the active one",
+    "desc": "Holding down the keys below (<kbd>LWin+LAlt</kbd> by default), and turning the <kbd>wheel down</kbd>, it minimizes all windows, except the active one. <br>If you click on the desktop (and turning the <kbd>wheel down</kbd>), it will minimize all windows on the screen.<br>This remembers minimized windows made by <kbd>wheel down</kbd>. Minimized windows can be restored (by holding down the keys below, and) by turning the <kbd>wheel up</kbd>.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LWin+LAlt",
+    "hotkeyModifiers": "<#<!",
+    "function": "minimizeBackWindowsByWheel_SetHotkeys",
+    "sc": "Wheel",
+    "scope": "Wheel"
+  },
+  {
+    "id": "moveWindowByWheel",
+    "type": "noHotkey",
+    "title": "Move window by Wheel",
+    "desc": "Holding down the <kbd>CapsLock</kbd>, and turning the <kbd>wheel</kbd> slowly, just once, the window starts moving to the right or left. <br> If you continue to turn the <kbd>wheel</kbd>, the window speed will increase. If you turn the <kbd>wheel</kbd> in the opposite direction, the speed will decrease. To stop the window, you need to release <kbd>CapsLock</kbd>.<br> If you spin the wheel <kbd>quickly</kbd>, the window will move to predefined zones. These are the middle of the screen, the edges of the screen, etc. <br> If you hold down <kbd>LCtrl</kbd> (and <kbd>CapsLock</kbd>) and turn the <kbd>wheel</kbd>, the window will move vertically.",
+    "isEnable": 1,
+    "hotkeyModifiers": "Wheel",
+    "function": "moveWindowByWheel_SetHotkeys",
+    "sc": "Wheel"
+  },
+  {
+    "id": "RButtonAndWheel",
+    "type": "noHotkey",
+    "title": "Right mouse button & Wheel",
+    "desc": "Holding down the <kbd>right mouse button</kbd>, and turning the <kbd>wheel</kbd>, it maximizes or minimizes the window (by default). If turn the wheel twice, it goes into full-screen. <br>The window is maximized when the <kbd>Right mouse button</kbd> are released, not when the wheel is turned.<br>To minimize a full-screen window to the Taskbar, you need to press the <kbd>Right mouse button</kbd> and scroll the <kbd>wheel down</kbd> twice.<br>You can also assign another action - scrolling tabs. To do this, you need to select the required action in the list below.",
+    "isEnable": 1,
+    "function": "RButtonAndWheel_SetFunction",
+    "list": {
+      "desc": "Action",
+      "value": "minimizeMaximizeWindow",
+      "items": [
+        {
+          "function": "minimizeMaximizeWindow",
+          "display": "Minimize Maximize Window"
+        },
+        {
+          "function": "nextPrevTab",
+          "display": "Scroll tabs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "closeTab",
+    "type": "mod&key",
+    "title": "Closes the tab",
+    "desc": "Holding <kbd>LCtrl</kbd> and <kbd>right clicking</kbd> (by default), it will close the active tab. <br> Note: RButton - right mouse button.",
+    "isEnable": 0,
+    "hotkeyDisplay": "LCtrl+RButton",
+    "hotkeyModifiers": "<^",
+    "function": "closeTab",
+    "sc": "RButton",
+    "scope": ""
+  },
+  {
+    "id": "closeWindow",
+    "type": "mod&key",
+    "title": "Closes the window",
+    "desc": "Holding <kbd>LWin</kbd> and <kbd>right clicking</kbd> (by default), it will close the window where the cursor is located. <br> Note: RButton - right mouse button.",
+    "isEnable": 0,
+    "hotkeyDisplay": "LWin+RButton",
+    "hotkeyModifiers": "<#",
+    "function": "closeWindow",
+    "sc": "RButton",
+    "scope": ""
+  },
+  {
+    "id": "nextPreviousTabByWheel",
+    "type": "noHotkey",
+    "title": "Scrolls tabs forward/backward by Wheel",
+    "desc": "Holding down the key below (<kbd>LShift</kbd> by default), and turning the <kbd>wheel</kbd>, it scrolls through the tabs. <br><b>Warning!</b>: <kbd>Shift+Wheel</kbd> disables horizontal scrolling. To scroll, use <kbd>Alt+Wheel</kbd> (by default).",
+    "isEnable": 1,
+    "hotkeyDisplay": "LShift",
+    "hotkeyModifiers": "<+",
+    "function": "nextPreviousTabByWheel_SetHotkeys",
+    "sc": "Wheel",
+    "index": 8,
+    "scope": "Wheel"
+  },
+  {
+    "id": "scrollToTopBottomByWheel",
+    "type": "noHotkey",
+    "title": "Scrolls the page to Top/Bottom by Wheel",
+    "desc": "Holding down the key below (<kbd>LCtrl</kbd> by default), and turning the <kbd>wheel</kbd>, this scrolls the page to the top or to the bottom (or moves the cursor to the beginning or end of the page). <br><b>Warning!</b>: <kbd>Ctrl+Wheel</kbd> disables window zooming. To zoom a window, use <kbd>Ctrl++</kbd>, <kbd>Ctrl+-</kbd>, or <kbd>Ctrl+Win+Wheel</kbd> (by default). <br/> If also hold <kbd>LShift</kbd>, it selects text, or files.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl",
+    "hotkeyModifiers": "<^",
+    "function": "scrollToTopBottomByWheel_SetHotkeys",
+    "sc": "Wheel",
+    "scope": "Wheel"
+  },
+  {
+    "id": "zoomByWheel",
+    "type": "noHotkey",
+    "title": "Zoom the page by Wheel",
+    "desc": "Holding down the keys below (<kbd>LCtrl+LWin</kbd> by default), and turning the <kbd>wheel</kbd>, this zooms the page.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin",
+    "hotkeyModifiers": "<^<#",
+    "function": "zoomByWheel_SetHotkeys",
+    "sc": "Wheel",
+    "scope": "Wheel"
+  },
+  {
+    "id": "scrollSelectByWheel",
+    "type": "noHotkey",
+    "title": "Selects all text (or files) to the beginning or to the end of a page",
+    "desc": "Holding down the keys below (<kbd>LCtrl+LShift</kbd> by default), and turning the <kbd>wheel</kbd>, this scrolls to the beginning or end of the page and selects text (or files).",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LShift",
+    "hotkeyModifiers": "<^<+",
+    "function": "scrollSelectByWheel_SetHotkeys",
+    "sc": "Wheel",
+    "scope": "Wheel"
+  },
+  {
+    "id": "scrollHorizontal",
+    "type": "noHotkey",
+    "title": "Horizontal Scrolling",
+    "desc": "Holding down the key below (<kbd>LAlt</kbd> by default), and turning the <kbd>wheel</kbd>, this scrolls the page horizontally.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LAlt",
+    "hotkeyModifiers": "<!",
+    "function": "scrollHorizontal_SetHotkeys",
+    "sc": "Wheel",
+    "scope": "Wheel"
+  },
+  {
+    "id": "hideDesktopIcons",
+    "type": "mod&key",
+    "title": "Hides/shows desktop icons",
+    "desc": "Note: D - means Desktop.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin+D",
+    "hotkeyModifiers": "<^<#",
+    "function": "hideDesktopIcons",
+    "sc": "sc20",
+    "scope": ""
+  },
+  {
+    "id": "removeWindowCaption",
+    "type": "mod&key",
+    "title": "Removes the TitleBar (Caption)",
+    "desc": "Removes/shows the TitleBar from the window. This only works on windows with native TitleBar. <br>Note: C - means Caption.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin+C",
+    "hotkeyModifiers": "<^<#",
+    "function": "removeWindowCaption",
+    "sc": "sc2E",
+    "scope": ""
+  },
+  {
+    "id": "alwaysOnTop",
+    "type": "mod&key",
+    "title": "Always On Top",
+    "desc": "Displays the window always on top of all other windows. Works for windows where the cursor is located. Pressing it again, returns the window to normal mode.<br>Note: T - means Top. ",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin+T",
+    "hotkeyModifiers": "<^<#",
+    "function": "alwaysOnTop",
+    "sc": "sc14",
+    "scope": ""
+  },
+  {
+    "id": "setTransparency",
+    "type": "mod&key",
+    "title": "Set Transparency",
+    "desc": " If press the keys below (<kbd>LCtrl+LWin+Right mouse button</kbd> by default), then the window will become transparent. To turn off transparency, press this hotkey again, and release all keys.<br> If hold down the keys (<kbd>Ctrl+LWin</kbd> by default), and release the <kbd>right mouse button</kbd>, and then spin the <kbd>wheel</kbd>, the transparency will change.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin+RButton",
+    "hotkeyModifiers": "<^<#",
+    "function": "setTransparency",
+    "sc": "RButton",
+    "scope": ""
+  },
+  {
+    "id": "focusWindow",
+    "type": "noHotkey",
+    "title": "Focus Window",
+    "desc": "If the cursor is on a inactive window, and the key below (<kbd>middle mouse button</kbd> by default) is clicked, this will activate this window.",
+    "isEnable": 1,
+    "hotkeyDisplay": "MButton",
+    "hotkeyModifiers": "",
+    "function": "focusWindow_SetHotkey",
+    "sc": "MButton",
+    "scope": ""
+  },
+  {
+    "id": "sendWindowToDown",
+    "type": "noHotkey",
+    "title": "Send Window To Down",
+    "desc": "Sends the specified window to the bottom of stack, that is, beneath all other windows. If the <kbd>middle mouse button</kbd> is held down, and the key below (<kbd>LCtrl</kbd> by default) is pressed.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl",
+    "hotkeyModifiers": "",
+    "function": "sendWindowToDown_SetHotkey",
+    "sc": "LCtrl",
+    "scope": "MButton"
+  },
+  {
+    "id": "copy",
+    "type": "noHotkey",
+    "title": "Copy",
+    "desc": "Copies the selected text or file. When text or files are selected, then by holding down the <kbd>left mouse button</kbd>, and then a modifier (<kbd>LCtrl</kbd> by default) is pressed.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl",
+    "hotkeyModifiers": "<^",
+    "function": "copy_SetHotkey",
+    "sc": "LButton",
+    "scope": "LButton"
+  },
+  {
+    "id": "paste",
+    "type": "noHotkey",
+    "title": "Paste",
+    "desc": "Pastes text from the clipboard. When the <kbd>left mouse</kbd> button is held down, and then a modifier (<kbd>LWin</kbd> by default) is pressed.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LWin",
+    "hotkeyModifiers": "<#",
+    "function": "paste_SetHotkey",
+    "sc": "LButton",
+    "scope": "LButton"
+  },
+  {
+    "id": "cut",
+    "type": "noHotkey",
+    "title": "Cut",
+    "desc": "Cuts the selected text or files. When the <kbd>left mouse</kbd> button is held down, and then a modifier (<kbd>LSift</kbd> by default) is pressed.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LShift",
+    "hotkeyModifiers": "<+",
+    "function": "cut_SetHotkey",
+    "sc": "LButton",
+    "scope": "LButton"
+  },
+  {
+    "id": "enter",
+    "type": "noHotkey",
+    "title": "Enter",
+    "desc": "Presses Enter. When the <kbd>left mouse</kbd> button is held down, and then a key below (<kbd>`</kbd> by default) is pressed.",
+    "isEnable": 1,
+    "hotkeyDisplay": "`",
+    "hotkeyModifiers": "",
+    "function": "enter_SetHotkey",
+    "sc": "LButton",
+    "scope": "LButton"
+  },
+  {
+    "id": "backSpace",
+    "type": "noHotkey",
+    "title": "BackSpace",
+    "desc": "Presses <kbd>BackSpace</kbd> (erases a character to the left). <br>When the <kbd>left mouse</kbd> button is held down, and then a key below (<kbd>Escape</kbd> by default) is pressed.",
+    "isEnable": 1,
+    "hotkeyDisplay": "Escape",
+    "hotkeyModifiers": "",
+    "function": "backSpace_SetHotkey",
+    "sc": "LButton",
+    "scope": "LButton"
+  },
+  {
+    "id": "altTab",
+    "type": "noHotkey",
+    "title": "Alt&Tab",
+    "desc": "Pressing <kbd>Alt+Tab</kbd> will open a window with a preview of all open programs. But unlike the usual AltTab, it leaves the window open without the need to hold modifiers, and programs can be selected with the mouse. You can release all the keys and the window will open. <br> Note: Use the <kbd>arrow keys</kbd> to highlight the program, and <kbd>Enter</kbd> to open it. To close the window, press <kbd>Escape</kbd>.",
+    "isEnable": 1,
+    "hotkeyModifiers": "Alt & Tab",
+    "function": "altTab_SetHotkey",
+    "sc": ""
+  },
+  {
+    "id": "fileExplorer_OpenDetails",
+    "type": "mod&key",
+    "title": "File Explorer: Open Right bar Details",
+    "desc": "In File Explorer, it opens the right bar Details, with a preview of the file, and metadata.",
+    "isEnable": 1,
+    "hotkeyDisplay": "Ctrl+.",
+    "hotkeyModifiers": "^",
+    "function": "fileExplorer_OpenDetails",
+    "sc": "sc34",
+    "scope": "FileExplorer",
+    "ahk_classes": [
+      "ahk_class CabinetWClass"
+    ],
+    "index": 18
+  },
+  {
+    "id": "fileExplorer_OpenPreview",
+    "type": "mod&key",
+    "title": "File Explorer: Open Right bar Preview",
+    "desc": "In File Explorer, it opens the right bar Preview, with a large preview of the file.",
+    "isEnable": 1,
+    "hotkeyDisplay": "Ctrl+/",
+    "hotkeyModifiers": "^",
+    "function": "fileExplorer_OpenPreview",
+    "sc": "sc35",
+    "scope": "FileExplorer",
+    "ahk_classes": [
+      "ahk_class CabinetWClass"
+    ]
+  },
+  {
+    "id": "fileExplorer_OpenLeftBar",
+    "type": "mod&key",
+    "title": "File Explorer: Close/open left bar",
+    "desc": "In File Explorer, it opens/closes the left bar TreeView.",
+    "isEnable": 1,
+    "hotkeyDisplay": "Ctrl+'",
+    "hotkeyModifiers": "^",
+    "function": "fileExplorer_OpenLeftBar",
+    "sc": "sc28",
+    "scope": "FileExplorer",
+    "ahk_classes": [
+      "ahk_class CabinetWClass"
+    ]
+  },
+  {
+    "id": "stickyKeys",
+    "type": "noHotkey",
+    "title": "Sticky Keys",
+    "desc": "This allows you to type faster and more convenient. If this is enabled, the modifier keys (<kbd>Shift, Ctrl, Win, Alt</kbd>) are not actually released when released, but are stuck for one second (1000 milliseconds by default. This can be changed in the field below). When this timeout ends, the modifiers are automatically released. All keys \"stick\" except <kbd>Enter</kbd> and <kbd>BackSpace</kbd>.<br> This eliminates the need to hold down all the keys of a hotkey, such as Ctrl+S, at the same time. But first press Ctrl, release it, and then press S. This allows you to type, or press hotkeys, with one hand. You can start a sentence with a capital letter by first pressing Shift, release Shift, and press the letter, and the letter will be typed with capital letter. If you press another key, Shift is automatically released before pressing.",
+    "isEnable": 1,
+    "hotkeyDisplay": "1000",
+    "function": "stickyKeys_setHotkeys"
+  },
+  {
+    "id": "GoToStartEndLine",
+    "type": "noHotkey",
+    "title": "Moves the cursor to the beginning or end of a line.",
+    "desc": "If hold down <kbd>Ctrl + ←</kbd> or <kbd>Ctrl + →</kbd> for a long time, the cursor moves to the beginning or end of the line. <br>If also hold down <kbd>Shift</kbd>, it selects the text.",
+    "isEnable": 1,
+    "function": "GoToStartEndLine_SetHotkey"
+  },
+  {
+    "id": "DeleteToStartLine",
+    "type": "noHotkey",
+    "title": "Erase to the beginning of the line",
+    "desc": "If hold down <kbd>Ctrl+BackSpace</kbd> for a long time, the cursor moves to the beginning of the line and erases the text.",
+    "isEnable": 1,
+    "function": "deleteToStartLine_SetHotkey"
+  },
+  {
+    "id": "DeleteToEndLine",
+    "type": "noHotkey",
+    "title": "Erases to end of line",
+    "desc": "If hold down <kbd>Ctrl+Delete</kbd> for a long time, the cursor moves to the end of the line and erases the text.",
+    "isEnable": 1,
+    "function": "deleteToEndLine_SetHotkey"
+  },
+  {
+    "id": "activateLastWindows",
+    "type": "noHotkey",
+    "title": "Switches between windows",
+    "desc": "This switches between the two/or more recently opened windows. <br> If hold the modifier below (<kbd>LWin</kbd> by default), and press <kbd>CapsLock</kbd>, the last recent window will open. Click it again, and the next window will open. <br>If hold the modifier (default <kbd>LWin</kbd>), and <kbd>CapsLock</kbd> (CapsLock can be released), and turn the <kbd>wheel up</kbd>, the third recent window will open, turn it again, and the 4th recent window will open. If turn <kbd>wheel down</kbd>, the previous one will open.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LWin",
+    "hotkeyModifiers": "<#",
+    "function": "activateLastWindows_SetHotkeys",
+    "sc": "",
+    "scope": "CapsLock"
+  },
+  {
+    "id": "Gestures",
+    "type": "noHotkey",
+    "title": "Mouse Gestures",
+    "desc": "Holding <kbd>right mouse button</kbd>, enables gesture painting mode.<br> You can draw gestures on the screen by holding down the right mouse button. <br> If you quickly right-click, it will open the right-click menu. <br>It’s best to learn about all the gestures on YouTube. <br> If you draw a <kbd>line from left to right</kbd>/<kbd>line from right to left</kbd> - this will scroll through the tabs. <br><kbd>Line from the right-upper corner to the lower-left</kbd> - closes the tab. If you draw the opposite - it restores the closed tab. <br><kbd>Line from the left-upper corner to the lower-right</kbd> - closes the window. This needs to be drawn closer to the <kbd>line from top to bottom</kbd>. Due to conflicts with the Scroll Tabs To Right gesture.<br>If you draw <kbd>1</kbd> from bottom to top, this will open an AltTab window with a list of running programs. <br>If you draw <kbd>1</kbd> (from bottom to top), and draw the top line to the right, not to the left - this will open the File Properties window (the file must be selected in File Explorer).<br>If you draw <kbd>S</kbd>, it will save the file. <br><kbd>f</kbd> (without the hook on top) - opens the Find window. <br><kbd>X (e) (loop on the top)</kbd> - To select everything. <br> To copy text - draw a <kbd>C</kbd>.<br> To paste - draw a <kbd>V</kbd> (checkmark where the right line is larger than the left). <br>To cut - draw an <kbd>X</kbd> (loop on the right). <br>Drawing letters such as <kbd>3, E, Z, X, C, V, N</kbd> usually presses <kbd>Ctrl + letter</kbd>. For example, if you draw <kbd>3</kbd> - then it will press <kbd>Ctrl + B</kbd>. If you hold down any modifier before releasing the <kbd>right mouse button</kbd>, then this modifier will also be pressed. For example, if you draw <kbd>3</kbd>, and before releasing the <kbd>right mouse button</kbd>, hold down <kbd>Alt</kbd>, then it will press <kbd>Ctrl + Alt + B</kbd>. <br> To go to the previous or next page, draw an <kbd>arrow to the left or right</kbd>. <br> To select all text (or files) to the beginning of the page - draw an <kbd>arrow up</kbd>.<br> To select all text (or files) to the end of the page - draw an <kbd>arrow down</kbd>.<br> If you draw a <kbd>square root icon</kbd>, it will open the calculator (line to the right, then V, then line to the right, then line down). <br><kbd>L</kbd> - line to the right, loop down, and then up - press <kbd>Ctrl+L</kbd> - opens the URL window in the browser.<br><kbd>R</kbd> - you need to draw starting from the bottom to the top. Line from the right bottom, to the left top, then loop to the right, and line to the left - reloads the page.",
+    "isEnable": 1,
+    "function": "gesture_EnableDisable"
+  },
+  {
+    "id": "reloadScript",
+    "type": "mod&key",
+    "title": "Reload this program",
+    "desc": "",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin+R",
+    "hotkeyModifiers": "<^<#",
+    "function": "reloadScript",
+    "sc": "sc13",
+    "scope": ""
+  },
+  {
+    "id": "exitScript",
+    "type": "mod&key",
+    "title": "Exit this program",
+    "desc": "",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin+Escape",
+    "hotkeyModifiers": "<^<#",
+    "function": "exitScript",
+    "sc": "sc1",
+    "scope": ""
+  },
+  {
+    "id": "holdingLeftRightKey",
+    "type": "noHotkey",
+    "title": "Holding down the Left or Right arrow for a long time",
+    "desc": "This only works in browsers. If you hold down the arrow key <kbd>→</kbd> or <kbd>←</kbd> for a long time, then the next page or the previous one will load.<br> This allows you not to click on links like <kbd>1,2, .... Next</kbd>, and press only the <kbd>→</kbd> to go to the next page. <br>All it does is simply press <kbd>Ctrl + →</kbd> while holding down the <kbd>→</kbd> arrow for a long time. In order for the browser to go to another page, an extension such as <a href='https://addons.mozilla.org/en-US/firefox/addon/nextpage/'>nextpage</a> must be installed in browser. And there should be a <kbd>Ctrl + →</kbd> hotkey assigned to the function - go to next page.<br>See Youtube video about how to assign hotkeys in the <kbd>nextpage</kbd> extension. <br>In the field below you can specify how long you need to hold the key (800 milliseconds by default).",
+    "isEnable": 0,
+    "hotkeyDisplay": "800",
+    "function": "holdingLeftRightKey_EnableDisable"
+  },
+  {
+    "id": "holdingRepeatSymbols",
+    "type": "noHotkey",
+    "title": "Repeat Symbols",
+    "desc": "This repeats the typing of certain characters. For example, if you hold down the <kbd>minus -</kbd> key for a long time, it will print a line of minuses. The number of characters can be specified in the field below.<br> The following characters are supported:<kbd>- + =</kbd>.",
+    "isEnable": 1,
+    "hotkeyDisplay": "61",
+    "function": "holdingRepeatSymbols_EnableDisable",
+    "hotkeyModifiers": "",
+    "sc": ""
+  },
+  {
+    "id": "holdingEsc",
+    "type": "noHotkey",
+    "title": "Holding Escape (Shutting down the computer)",
+    "desc": "Long press <kbd>Escape</kbd>, opens the computer shutdown window. Where the default is set to Sleep. If this is what you need, then just press <kbd>Enter</kbd>, and the computer will go into sleep mode. Press <kbd>Escape</kbd> to cancel, and the window will close. <br>In the field below, you can set a timeout - how long you have to hold Escape (in milliseconds. By default, it is 1000 (1 second)).",
+    "isEnable": 1,
+    "hotkeyDisplay": "800",
+    "function": "holdingEsc_EnableDisable",
+    "hotkeyModifiers": "",
+    "sc": ""
+  },
+  {
+    "id": "hotStrings",
+    "type": "noHotkey",
+    "title": "Autoreplace Words",
+    "desc": "This replaces some words with replacement characters. For example, if you type <kbd>-==</kbd>, and then a <kbd>Space</kbd>, it will be replaced with a big dash —. <br>The following replacements are available:<br><kbd>-==</kbd> - — (mDash)<br><kbd>-00</kbd> - – (nDash)<br><kbd>arru</kbd> - <kbd>↑</kbd><br><kbd>arrd</kbd> - <kbd>↓</kbd><br><kbd>arrl</kbd> - <kbd>←</kbd><br><kbd>arrr</kbd> - <kbd>→</kbd><br><kbd>@@</kbd> - <kbd>email@gmail.com</kbd> (You can specify your email in the field below).<br><kbd>/.</kbd> - <kbd>29 Feb, 10:30, 2020</kbd> (The date format can be selected from the list below).<br>Note: This does not depend on the keyboard layout.",
+    "isEnable": 1,
+    "hotkeyDisplay": "enterEmail@inSettings.com",
+    "function": "hotStrings_EnableDisable",
+    "list": {
+      "desc": "Time format",
+      "value": "formatTime_1_Feb_2000_week",
+      "items": [
+        {
+          "function": "formatTime_Default",
+          "display": "2:08 PM Saturday, March 1, 2025"
+        },
+        {
+          "function": "formatTime_1_Feb_2000_AM_Saturday",
+          "display": "29 Feb, 2025, 10:00 AM (Saturday)"
+        },
+        {
+          "function": "formatTime_1_Feb_2000_10_30_Saturday",
+          "display": "29 Feb, 2025, 19:30 (Saturday)"
+        },
+        {
+          "function": "formatTime_1_Feb_10_10_Saturday_2000",
+          "display": "29 Feb, 19:30, Saturday, 2025"
+        },
+        {
+          "function": "formatTime_1_Feb_AM_Saturday_2000",
+          "display": "29 Feb, 10:30 AM, Saturday, 2025"
+        },
+        {
+          "function": "formatTime_1_Feb_2000_week",
+          "display": "29 Feb, 2025, Saturday"
+        },
+        {
+          "function": "formatTime_1_Feb_2000",
+          "display": "29 Feb, 2025"
+        },
+        {
+          "function": "formatTime_10_10_2000_10_10",
+          "display": "29.02.2025, 19:30"
+        },
+        {
+          "function": "formatTime_1_Feb_Year_23time",
+          "display": "08 Jun 2024, 19:10"
+        },
+        {
+          "function": "formatTime_moth_day_year_am",
+          "display": "3/18/2025, 10:30 AM"
+        }
+      ]
+    },
+    "hotkeyModifiers": "",
+    "sc": ""
+  },
+  {
+    "id": "altTabOnTaskbar",
+    "type": "noHotkey",
+    "title": "AltTab on screen corner",
+    "desc": "If you hover the cursor over a corner of the screen, for example the bottom left, an AltTab window opens with a list of running programs.<br>The value in the field specifies the distance in pixels from the corner.",
+    "isEnable": 1,
+    "hotkeyDisplay": "40",
+    "list": {
+      "desc": "Corner",
+      "value": "altTabOnTaskbar_BottomLeft",
+      "items": [
+        {
+          "function": "altTabOnTaskbar_BottomLeft",
+          "display": "Bottom left"
+        },
+        {
+          "function": "altTabOnTaskbar_TopLeft",
+          "display": "Top left"
+        },
+        {
+          "function": "altTabOnTaskbar_TopRight",
+          "display": "Top right"
+        },
+        {
+          "function": "altTabOnTaskbar_BottomRight",
+          "display": "Bottom right"
+        }
+      ]
+    },
+    "function": "altTabOnTaskbar_EnableDisable"
+  },
+  {
+    "id": "hideTaskbar",
+    "type": "noHotkey",
+    "title": "Hide Taskbar",
+    "desc": "To prevent the Taskbar from opening when the cursor is over the bottom edge of the screen. The Taskbar will only open if you hover the cursor over a corner of the screen (bottom right by default). The Taskbar will open if the cursor is over the bottom of the screen, and <kbd>Ctrl</kbd> is held down.<br>From the list below, you can choose which corner you need to hover over to open the Taskbar.<br>To enable or disable this feature, press the hotkey below.",
+    "isEnable": 0,
+    "function": "hideTaskbar_EnableDisable",
+    "hotkeyDisplay": "LCtrl+LWin+V",
+    "list": {
+      "desc": "Corner",
+      "value": "BottomRight",
+      "items": [
+        {
+          "function": "BottomLeft",
+          "display": "Bottom left"
+        },
+        {
+          "function": "BottomRight",
+          "display": "Bottom right"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rememberWindowsSizes",
+    "type": "noHotkey",
+    "title": "Remember Windows Sizes",
+    "desc": "Opens the 'Remember Window Sizes' dialog box. This remembers the sizes of the active window, so the next time the window is opened, it will open with these sizes.<br>By default, the window is remembered only using the window class (the first checkbox). But there may be many different windows with the same window class, so it may be necessary to limit the scope so that remembering the window does not affect other window. To do this, you can check the second checkbox (exe), or specify the window title (the third checkbox).<br>Next, specify the window title in the field. You can remove the suggested text and leave only one word, for example, instead of 'Open File', specify only 'Open', this will correspond to a larger number of windows, for example, 'Open Folder', 'Open Project', and so on.<br>If you check the 'Remember position on screen' checkbox, it will remember not only the window size, but also the position on the screen.<br>If you check the 'Remember on close' checkbox, it will remember the window size when the window is closed, and the position on the screen, if the 'Remember position on screen' checkbox is checked.<br>To unmemorize the size for this window, and return it to the original, click 'Remove active window'. <br>Or you can remove all windows from the list so that remembering windows no longer works for any window. Click on 'Remove all windows'.",
+    "isEnable": 1,
+    "hotkeyDisplay": "LCtrl+LWin+W",
+    "function": "rememberWindowsSizes_EnableDisable"
+  }
+]

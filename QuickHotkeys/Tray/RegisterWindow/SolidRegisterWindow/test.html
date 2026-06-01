@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+
+    <title>Solid App</title>
+
+  </head>
+  <body>
+
+    <a href="https://www.google.com" target="_blank">Test10</a>
+    <a href="https://www.google.com" target="_blank">Test20</a>
+
+    
+    <script>
+
+
+    function clickLink(event) {
+        event.preventDefault()
+        console.log("a")
+    }
+
+
+    // function removeListenerToLinks(){
+
+    //     var links = document.getElementsByTagName("a");
+
+    //     for (var i = 0; i < links.length; i++) {
+            
+    //         links[i].removeEventListener("click", clickLink);
+    //     }
+
+    // }
+
+
+    /** На все ссылки назначает обработчик. */
+    function addListenerToLinks(){
+
+        var links = document.getElementsByTagName("a");
+
+        for (var i = 0; i < links.length; i++) {
+
+            links[i].addEventListener("click", clickLink);
+        }
+
+    }
+
+    addListenerToLinks()
+    addListenerToLinks()
+    addListenerToLinks()
+
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,208 @@
+
+html * {
+    box-sizing: border-box;
+}
+
+@font-face { 
+    font-family: "Hurmit"; 
+    src: url('../../www/HurmitNerdFont-Regular.otf'); 
+}
+@font-face { 
+    font-family: "Hurmit"; 
+    src: url('../../www/HurmitNerdFont-Bold.otf'); 
+    font-weight: bold;
+}
+
+
+html {
+    /* height: 100%; */
+    /* min-height: 100vh; */
+    margin: 0;
+    padding: 0;
+    --app-region: drag;
+    -webkit-app-region: drag;
+    font-size: large;
+    /* text-align: center; */
+    font-family: "Hurmit";
+    color: rgb(37, 37, 37);
+    /* font-weight: 200; */
+    /* background-color: yellow; */
+    position: relative;
+
+}
+
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(61, 202, 91); */
+
+    /* https://stripesgenerator.com/ */
+/*👉    background-image: linear-gradient(45deg, #81b4d1 25%, #6e9cb8 25%, #6e9cb8 50%, #81b4d1 50%, #81b4d1 75%, #6e9cb8 75%, #6e9cb8 100%);
+    background-size: 56.57px 56.57px;
+👈*/
+
+/*👉    background-image: linear-gradient(63deg, #81b4d1 25%, #7aadcc 25%, #7aadcc 50%, #81b4d1 50%, #81b4d1 75%, #7aadcc 75%, #7aadcc 100%);
+background-size: 92.03px 180.62px;👈*/
+
+/*👉background-image: linear-gradient(63deg, #81b4d1 25%, #76a6c4 25%, #76a6c4 50%, #81b4d1 50%, #81b4d1 75%, #76a6c4 75%, #76a6c4 100%);
+background-size: 92.03px 180.62px;👈*/
+
+/*👉background-image: linear-gradient(63deg, #86a868 25%, #5d798a 25%, #5d798a 50%, #86a868 50%, #86a868 75%, #5d798a 75%, #5d798a 100%);
+background-size: 92.03px 180.62px;👈*/
+
+background-image: linear-gradient(63deg, #86a868 25%, #619c69 25%, #619c69 50%, #86a868 50%, #86a868 75%, #619c69 75%, #619c69 100%);
+background-size: 92.03px 180.62px;
+
+}
+
+.wrapAll{
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    /* padding: 8px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    /* min-height: 10vh; */
+    /* padding: 0 10px; */
+    font-size: medium;
+    text-align: center;
+}
+
+
+input, a, button {
+    --app-region: no-drag;
+    -webkit-app-region: no-drag;
+}
+
+/* &#x2715;
+* https://stackoverflow.com/questions/5353461/unicode-character-for-x-cancel-close
+*/
+#close{
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+    width: auto;
+    height: auto;
+    /* background-color: gray; */
+    text-align: right;
+    margin: 0 4px 4px 4px;
+    cursor: pointer;
+    
+}
+
+#close::before { 
+    content: '\2715';
+    font: normal 1em/1 Arial, sans-serif;
+}
+#close:hover{
+    color: rgb(223, 26, 26);
+}
+
+
+.green{
+    color: rgb(30, 93, 27);
+    font-weight: bold;
+}
+
+
+.green a:link, .green a:visited, .green a:active{
+    color:rgb(29, 117, 58);
+}
+
+h3{
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+
+main{
+    /* background-color: rgb(36, 147, 199); */
+    /* margin-bottom: auto; */
+    /* flex:1;  */
+    padding: 0 10px 10px 10px;
+}
+
+
+footer{
+    /* background-color: green; */
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+footer .textOnBottom{
+    font-size: large !important;
+}
+
+
+.sendButton{
+    display: block;
+    /* margin-top: 20px; */
+    margin: 14px auto;
+    padding: 4px 0px;
+    width: 300px;
+    height: auto;
+}
+
+#key{
+    width: 100%;
+    opacity: 0.7;
+}
+
+#keyError{
+    color: rgb(194, 32, 32);
+}
+
+
+.lds-dual-ring {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-top: -3px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring .3s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spin {
+    transform-origin: center;
+    animation: spin 0.2s linear infinite;
+  }
+
+
+
+
+
+
