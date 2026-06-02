@@ -12,7 +12,7 @@ QuickHotkeys/log.txt
 
 # Скомпилированные файлы
 QuickHotkeys/*.exe
-
+QuickHotkeys/bin/*.exe
 
 # Временные файлы Windows
 Thumbs.db
