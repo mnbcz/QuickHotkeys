@@ -8,6 +8,8 @@
 
 It is designed for people who work on PC all day and want to **control everything faster, without a mouse menu or unnecessary clicks**.
 
+It combines **40+ productivity functions ** into a single lightweight background tool.
+
 ---
 
 ## 📥 Installation
@@ -19,8 +21,21 @@ Download the latest version:
 Then run installer and enable features in tray menu:
 **Right click → Settings**
 
-
 ---
+
+## 🎥 QuickHotkeys Tutorial Videos (YouTube)
+
+Learn how to use QuickHotkeys for Windows productivity, mouse gestures, and window management:
+
+https://www.youtube.com/playlist?list=PLVkS_eTsfH-sEFw55o5UkRK7uMNIyICXb
+
+Topics covered:
+
+- Windows 10 / Windows 11 window management shortcuts
+- Mouse gestures for fast navigation
+- Browser tab control shortcuts
+- Productivity automation with hotkeys
+- Real workflow examples for faster work
 
 ## ⚡ Why QuickHotkeys?
 
@@ -43,7 +58,7 @@ then QuickHotkeys helps you:
 
 ## 🧠 Key Features
 
-### 🪟 Advanced Window Management
+### 🪟 Advanced Window Management (AltDrag-like control)
 - Move windows from anywhere (not just title bar)
 - Resize windows by edges or free drag
 - Snap windows to screen edges and center
@@ -58,8 +73,10 @@ then QuickHotkeys helps you:
 Hold right mouse button and draw gestures:
 
 - ⬅➡ switch browser tabs
-- ⬇➡ close tab
-- ⬆ open Alt+Tab window
+- ↘↖ (diagonal from top-right to bottom-left) → Close tab  
+- ↗↙ (diagonal from bottom-left to top-right) → Restore closed tab  
+- ↘ (top-left to bottom-right diagonal / close gesture area) → Close window  
+
 - ✍ draw letters for actions:
   - `C` → Copy
   - `V` → Paste
@@ -122,8 +139,32 @@ Hold right mouse button and draw gestures:
 - Control everything with one hand
 - Reduce repetitive PC actions
 
-
 ---
+
+## 🚫 Hide Taskbar (Prevent accidental popup)
+
+QuickHotkeys can prevent the Windows Taskbar from appearing when you accidentally move your mouse to the bottom edge of the screen.
+
+Normally, Windows shows the Taskbar when you hover the bottom edge — this can interrupt workflow. This feature removes that behavior.
+
+### How it works:
+
+- The Taskbar will NOT open when you move the cursor to the bottom edge of the screen.
+- The Taskbar will only open when you hover a **selected screen corner** (default: bottom-right).
+- You can still open the Taskbar normally by holding **Ctrl** while hovering the bottom edge.
+
+### Features:
+
+- Prevents accidental Taskbar popups
+- Improves full-screen and window management workflow
+- Customizable activation corner (bottom-left / bottom-right)
+- Can be enabled or disabled with a hotkey
+
+👉 This is useful for users who work with:
+- fullscreen apps
+- multiple windows
+- design / coding / multitasking setups
+
 
 ## ⚙ Settings Panel
 
@@ -158,7 +199,7 @@ Each feature is independent.
 
 ---
 
-## ⭐ Keywords (SEO)
+## ⭐ Keywords
 
 windows hotkeys, mouse gestures windows, window manager windows, productivity tool windows, autohotkey alternative, browser tab control, window snapping tool, keyboard shortcuts windows, automation tool pc, multitasking tool
 
