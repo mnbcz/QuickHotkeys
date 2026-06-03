@@ -52,7 +52,7 @@ then QuickHotkeys helps you:
 - reduce repetitive actions
 - speed up typing and navigation
 
-👉 This is a **Windows productivity booster + automation layer**.
+👉 This is a **Windows productivity booster**.
 
 ---
 
@@ -164,6 +164,249 @@ Normally, Windows shows the Taskbar when you hover the bottom edge — this can 
 - fullscreen apps
 - multiple windows
 - design / coding / multitasking setups
+
+
+## Fix Video Files (Repair Video Thumbnails, Metadata and File Properties)
+
+Have you ever downloaded a video and noticed that the thumbnail preview is missing in File Explorer?
+
+Sometimes video files become partially damaged or contain broken metadata. As a result:
+
+- Video thumbnail is not displayed in File Explorer.
+- Video preview does not work.
+- Rating field is disabled.
+- Tags field is disabled.
+- Comments field is disabled.
+- Search indexing does not work correctly.
+- It becomes difficult to organize and find videos later.
+
+Without tags, ratings, comments, and metadata, it is much harder to search and manage large video collections.
+
+QuickHotkeys includes a **Fix Video Files** utility that can repair many of these problems.
+
+After repairing:
+
+- Video thumbnails become visible.
+- Preview images are generated correctly.
+- Tags, comments, and rating fields become editable.
+- Windows Search can index the file correctly.
+- Video metadata becomes available.
+
+You can also change the thumbnail image used by the video file:
+
+- Select another frame from the video.
+- Choose a custom image.
+- Replace a missing thumbnail with any picture.
+
+This is especially useful for videos downloaded from the Internet, screen recordings, camera recordings, and files that were copied between devices and became partially corrupted.
+
+### How to Repair Video Files
+
+1. Open File Explorer.
+2. Select one or more video files.
+3. Right-click the QuickHotkeys tray icon.
+4. Choose **Fix Video Files**.
+
+The utility will repair damaged video metadata, restore thumbnail previews, unlock editable file properties, and improve compatibility with Windows File Explorer and Windows Search.
+
+
+## Remember Window Sizes (Save Window Size and Position)
+
+Does Windows constantly forget the size of your windows?
+
+Many applications reopen their windows using default dimensions instead of the size you previously selected. This is especially annoying with common dialogs such as:
+
+* Open File
+* Save As
+* Browse Folder
+* Import
+* Export
+* Project Selection dialogs
+
+Often these windows open too small, making it difficult to navigate folders, view filenames, or select the files you need.
+
+As a result, you must resize the same window over and over again every time it appears.
+
+Many users search for solutions such as:
+
+* How to make a window remember its size?
+* How to save window position in Windows?
+* How to force a window to open at the previous size?
+* How to make the Save As dialog remember its size?
+* How to stop Windows from resetting window dimensions?
+
+There are separate utilities dedicated only to remembering window sizes and positions. However, QuickHotkeys already includes this functionality together with many other Windows productivity tools, so there is no need to run multiple programs.
+
+### Features
+
+* Remember window size.
+* Remember window position on screen.
+* Automatically restore the previous size when the window opens.
+* Automatically restore the previous screen position.
+* Remember size when the window is closed.
+* Support for specific applications.
+* Support for specific window titles.
+* Support for groups of similar windows.
+
+### How It Works
+
+Open **Remember Window Sizes** from QuickHotkeys.
+
+By default, windows are identified by their window class. If multiple windows share the same class, you can further restrict matching by:
+
+* Application executable (.exe).
+* Window title.
+* Partial window title.
+
+For example, instead of specifying the full title "Open File", you can specify only "Open". This allows the rule to work for windows such as:
+
+* Open File
+* Open Folder
+* Open Project
+
+and other similar dialogs.
+
+### Additional Options
+
+**Remember position on screen**
+
+Stores both the size and the screen location of the window.
+
+**Remember on close**
+
+Automatically updates the stored size and position when the window is closed.
+
+### Remove Saved Settings
+
+To stop remembering a particular window:
+
+* Open the dialog.
+* Activate the target window.
+* Click **Remove active window**.
+
+To remove all remembered windows:
+
+* Click **Remove all windows**.
+
+The window will then return to its original Windows behavior.
+
+
+> **💡 Tip:** If you often need Windows to remember window sizes and positions, you can quickly open the **Remember Window Sizes** dialog by pressing **Ctrl + Win + W**.
+>
+> This shortcut opens the window where you can configure automatic remembering of window size and screen position for dialogs such as **Open File**, **Save As**, and other application windows.
+>
+> Thanks to the **Sticky Keys** accessibility feature, you do not have to press all keys at the same time. You can press **Ctrl**, release it, then press **Win**, release it, and finally press **W**. Windows will treat this as the key combination **Ctrl + Win + W**.
+>
+> See the **Sticky Keys** documentation for more information.
+
+
+
+## Remove "To exit FullScreen press Esc" message in Chrome, Brave and Edge
+
+**How to remove the "To exit FullScreen press Esc" message in Chrome?**
+
+When switching a browser to Full Screen mode, a notification often appears at the top of the screen:
+
+> To exit FullScreen press Esc
+
+This message is displayed by many Chromium-based browsers, including Chrome, Brave, Edge, Opera, Vivaldi and others.
+
+The notification appears every time Full Screen mode is activated and can be distracting when watching videos, movies, YouTube playlists, online courses, presentations or live streams.
+
+Many users look for ways to disable this message, but modern browsers do not provide a built-in option to turn it off.
+
+This utility automatically suppresses the Full Screen notification, so the message no longer appears when entering Full Screen mode.
+
+Supported browsers include:
+
+* Google Chrome
+* Brave Browser
+* Microsoft Edge
+* Opera
+* Vivaldi
+* Other Chromium-based browsers
+
+After enabling this module, entering Full Screen mode becomes cleaner and less distracting because the notification window is no longer shown.
+
+### Common search queries
+
+* How to remove "To exit FullScreen press Esc" in Chrome
+* Disable Full Screen notification Chrome
+* Remove Full Screen popup Chrome
+* Hide "Press Esc to exit Full Screen"
+* Chrome fullscreen message won't disappear
+* Disable fullscreen warning in Brave browser
+* Remove fullscreen notification Edge browser
+* Stop Chrome showing "To exit FullScreen press Esc"
+* Hide fullscreen banner Chrome
+* Fullscreen notification on YouTube
+
+> **Tip:** This feature is enabled by default, so the notification is automatically hidden in supported browsers without additional configuration.
+
+
+
+
+## Hotkey Aliases and Language Switching
+
+How to change language switch hotkeys in Windows? How to assign custom keyboard shortcuts for input languages? This feature allows you to create your own hotkeys for switching between keyboard layouts and input languages, including shortcuts that Windows normally does not allow.
+
+### How to assign custom hotkeys for switching languages?
+
+Windows allows you to assign hotkeys for switching input languages. However, the available key combinations are often inconvenient.
+
+For example, you may want to switch languages using:
+
+* <kbd>Ctrl+F9</kbd> → English
+* <kbd>Ctrl+F8</kbd> → Language 2
+
+These combinations are easy to reach and are much more convenient than the default Windows shortcuts.
+
+The **Aliases** feature allows one hotkey to emulate another hotkey.
+
+For example:
+
+| Alias Hotkey       | Sends                   |
+| ------------------ | ----------------------- |
+| <kbd>Ctrl+F9</kbd> | <kbd>Ctrl+Shift+9</kbd> |
+| <kbd>Ctrl+F8</kbd> | <kbd>Ctrl+Shift+8</kbd> |
+
+### How to configure language switching
+
+1. Open **Windows Settings** using <kbd>Win+I</kbd>.
+2. Search for **Typing**.
+3. Open **Typing Settings**.
+4. Open **Advanced keyboard settings**.
+5. Click **Input language hotkeys**.
+6. Select **English** and assign:
+
+   * <kbd>Ctrl+Shift+9</kbd>
+7. Select **Language 2** and assign:
+
+   * <kbd>Ctrl+Shift+8</kbd>
+
+After that, return to this program and enable (in Settings):
+
+* **Set English**
+* **Set Language 2**
+
+Now pressing:
+
+* <kbd>Ctrl+F9</kbd> will switch to English.
+* <kbd>Ctrl+F8</kbd> will switch to Language 2.
+
+### Why use aliases?
+
+Windows does not allow assigning many convenient hotkeys directly to languages. Using aliases makes it possible to use almost any keyboard shortcut for language switching.
+
+### Scope
+
+The **Scope** field limits where the alias works.
+
+For example:
+
+<kbd>CabinetWClass</kbd>
+
+means the alias will only work inside **File Explorer** windows.
 
 
 ## ⚙ Settings Panel
