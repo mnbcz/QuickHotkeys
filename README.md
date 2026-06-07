@@ -52,7 +52,7 @@ then QuickHotkeys helps you:
 - reduce repetitive actions
 - speed up typing and navigation
 
-👉 This is a **Windows productivity booster**.
+👉 This is a **Windows productivity engine**.
 
 ---
 
@@ -830,7 +830,7 @@ Many users encounter this window accidentally and immediately search online for:
 * Stop Sticky Keys popup
 * Turn off Sticky Keys notification
 
-The built-in Windows solution is often considered intrusive and inconvenient.
+The built-in Windows solution is often considered inconvenient.
 
 ### A Different Approach
 
@@ -1213,7 +1213,6 @@ As a result:
 * No accidental clicks.
 * No accidental link activation.
 * Smooth dragging.
-* Reliable operation.
 
 ### Window Resize Mode
 
@@ -1374,6 +1373,654 @@ Everything becomes faster.
 If the cursor is positioned over a web link, the simultaneous left and right mouse button actions are reserved for the **Click on Links** feature.
 
 In that case, the program opens the link in a new tab instead of entering window moving or resizing mode.
+
+---
+
+
+
+
+## Minimize, Maximize, Fullscreen and Restore Windows
+
+**How do I quickly minimize a window? How do I maximize a window without clicking the title bar buttons? How do I restore a recently minimized window? How do I switch between the last two active windows? How do I activate a window without clicking its buttons or links?**
+
+One of the most frequently used actions in Windows is minimizing and restoring windows. 
+
+Common problems:
+
+* The Minimize and Maximize buttons are small and located in the top-right corner of the window.
+* Sometimes another window covers these buttons.
+* Sometimes part of the window is outside the screen and the buttons are inaccessible.
+* It is impossible to quickly minimize or maximize a window with the mouse from anywhere on the screen.
+* Restoring recently minimized windows is inconvenient.
+* Activating a window often requires clicking on it, which may accidentally press buttons, links, or other controls.
+
+This module solves all of these problems.
+
+### Quickly Minimize and Maximize Windows
+
+Hold the **right mouse button** and rotate the **mouse wheel**:
+
+* **Wheel Up** → maximize the window.
+* **Wheel Down** → minimize the window to the Taskbar.
+
+As an alternative, you can hold the **Win** key and rotate the mouse wheel.
+
+This is significantly faster than moving the cursor to the title bar buttons every time.
+
+### Enter Fullscreen Mode
+
+If you continue rotating the wheel upward after maximizing the window:
+
+* The window enters **Fullscreen Mode**.
+* Double scrolling upward quickly also switches directly to Fullscreen.
+
+This is useful for:
+
+* Browsers
+* YouTube
+* Video players
+* PDF readers
+* Document editing
+* Coding environments
+
+### Minimize Directly from Fullscreen
+
+Normally Windows makes it difficult to minimize a fullscreen application.
+
+With this module:
+
+* Scroll down once → exit Fullscreen.
+* Scroll down twise → minimize the window to the Taskbar.
+
+This allows very fast navigation between windows.
+
+### Restore Recently Minimized Windows
+
+A common problem is:
+
+**How do I reopen the last minimized window?**
+
+Simply:
+
+* Move the cursor over the Desktop.
+* Hold the **right mouse button** or **Win**.
+* Rotate the wheel upward.
+
+Recently minimized windows will be restored.
+
+If no Desktop is visible because a maximized window covers the screen:
+
+* Move the cursor to the edge of the screen.
+* Rotate the wheel upward.
+
+The recently minimized window will be restored.
+
+### Switch Between the Last Two Active Windows
+
+Many users constantly switch between two windows:
+
+* Browser ↔ VSCode
+* Browser ↔ File Explorer
+
+Simply press:
+
+<kbd>Win</kbd> + <kbd>CapsLock</kbd>
+
+This instantly switches to the previously active window.
+
+### Open a List of Recent Windows
+
+Hold:
+
+<kbd>Win</kbd> + <kbd>CapsLock</kbd>
+
+and rotate the mouse wheel.
+
+Recently used windows appears.
+
+Continue rotating the wheel until the desired window is opened.
+
+Release the keys and that window becomes active.
+
+All other previews automatically disappear.
+
+### Activate (Focus) a Window Without Clicking 
+
+A common problem:
+
+You want to activate a window, but clicking it may:
+
+* Press a button.
+* Open a link.
+* Select text.
+* Trigger an unwanted action.
+
+Sometimes several windows overlap each other and you simply want one of them to become active.
+
+Solution:
+
+Press the **middle mouse button** over the window.
+
+The window becomes active without performing a normal left-click.
+
+This is useful when working with:
+
+* Browsers
+* File Explorer
+* Development tools
+* Text editors
+* Graphics applications
+* Multiple overlapping windows
+
+### Why This Is Useful
+
+This feature allows you to:
+
+* Minimize windows faster.
+* Maximize windows faster.
+* Enter Fullscreen instantly.
+* Restore recently minimized windows.
+* Switch between the last two windows immediately.
+* Browse recent windows with the mouse wheel.
+* Activate windows without clicking buttons or links.
+
+---
+
+
+## Minimize or Restore All Windows Except the Active One
+
+**How do I minimize all windows except the current one? Is there a shortcut to hide every other window? How do I quickly clean up the desktop? How do I restore all previously minimized windows?**
+
+When working with many applications at the same time, the screen quickly becomes cluttered with windows.
+
+You may have:
+
+* Multiple File Explorer windows.
+* Several browser windows.
+* VSCode.
+* Terminal windows.
+* Chat applications.
+
+Sometimes you want to focus on a single window and temporarily hide everything else.
+
+### The Problem
+
+Common situations:
+
+* You want to leave only one window visible.
+* You need to quickly clean up the desktop.
+* You do not want to manually minimize ten or twenty windows one by one.
+
+### Minimize All Windows Except One
+
+Move the mouse cursor over the window you want to keep visible.
+
+Then:
+
+* Hold <kbd>Win</kbd> + <kbd>Alt</kbd>.
+* Rotate the mouse wheel downward.
+
+All other windows will be minimized to the Taskbar.
+
+Only the window under the cursor remains visible.
+
+This is much faster than manually minimizing windows one by one.
+
+### Continue Working Normally
+
+After the other windows have been minimized, you can continue using Windows normally.
+
+You can:
+
+* Open new windows.
+* Minimize additional windows.
+* Maximize windows.
+* Switch between applications.
+* Continue your workflow as usual.
+
+The program remembers which windows were minimized by this feature.
+
+### Restore All Previously Hidden Windows
+
+At any time:
+
+* Hold <kbd>Win</kbd> + <kbd>Alt</kbd>.
+* Rotate the mouse wheel upward.
+
+All windows that were previously minimized by this feature will be restored.
+
+The desktop returns to exactly the same state as before.
+
+You do not need to remember which windows were open.
+
+You do not need to reopen applications manually.
+
+Everything comes back automatically.
+
+### Minimize Every Window on the Screen
+
+Sometimes you need an entirely clean desktop.
+
+Move the mouse cursor over the Desktop itself.
+
+Then:
+
+* Hold <kbd>Win</kbd> + <kbd>Alt</kbd>.
+* Rotate the mouse wheel downward.
+
+All windows will be minimized.
+
+The Desktop becomes completely visible.
+
+This is much faster than minimizing windows individually.
+
+### Restore the Entire Workspace
+
+After all windows have been minimized:
+
+* Hold <kbd>Win</kbd> + <kbd>Alt</kbd>.
+* Rotate the mouse wheel upward.
+
+All previously minimized windows will be restored.
+
+Your workspace returns exactly as it was before.
+
+### Perfect for Screen Recording
+
+This feature is especially useful for:
+
+* YouTube creators.
+* Screencast recording.
+* Tutorials.
+* Online courses.
+* Software demonstrations.
+* Presentations.
+* Livestreams.
+
+Instead of spending time closing or minimizing many windows manually, a single wheel movement clean the screen.
+
+
+---
+
+
+## Close Tabs Quickly
+
+**How do I close browser tabs faster? How do I close many tabs without moving the mouse to each tab?**
+
+One of the most common actions in any browser is closing tabs.
+
+People close tabs hundreds of times every day.
+
+Yet Windows browsers still require one of two inconvenient methods:
+
+* Click the small **X** button on the tab.
+* Press the keyboard shortcut <kbd>Ctrl+W</kbd>.
+
+Both methods have disadvantages.
+
+### The Problem
+
+The close button on a tab is small.
+
+To click it, you must:
+
+1. Move the cursor to the tab bar.
+2. Position the cursor precisely over the small X button.
+3. Click it.
+
+This may not seem like much, but when repeated hundreds of times per day, it becomes surprisingly slow.
+
+The problem becomes even worse when:
+
+* Dozens of tabs are open.
+* Tabs become very narrow.
+
+### Mouse Gestures Solution
+
+Previously, the recommended way to close tabs was using Mouse Gestures.
+
+Hold the **right mouse button** and draw a diagonal line:
+
+From:
+
+Right-Top
+
+To:
+
+↙ Left-Bottom
+
+This gesture immediately closes the current tab.
+
+The opposite gesture restores the last closed tab.
+
+This method is extremely fast and works in:
+
+* Chrome
+* Brave
+* Edge
+* File Explorer tabs
+* VSCode tabs
+* Many other tab-based applications
+
+### But What If You Need to Close Many Tabs?
+
+Mouse gestures are perfect for occasional tab closing.
+
+However, imagine you have:
+
+* 20 tabs
+* 30 tabs
+
+open.
+
+Drawing the gesture over and over becomes unnecessary.
+
+Your hand has to perform the same movement repeatedly.
+
+There is an even faster method.
+
+### Close Tabs with Ctrl + Right Click
+
+Simply hold:
+
+<kbd>Ctrl</kbd>
+
+and press:
+
+<kbd>Right Mouse Button</kbd>
+
+The current tab closes instantly.
+
+No need to:
+
+* Move to the tab bar.
+* Aim at the close button.
+* Draw a gesture.
+* Use the keyboard.
+
+Just hold Ctrl and keep right-clicking.
+
+---
+
+
+
+## Scroll Tabs Forward/Backward with the Mouse Wheel
+
+**How to switch browser tabs with the mouse wheel? How to scroll through tabs in Chrome, Edge, Brave, Firefox, VSCode, File Explorer, and other applications?**
+
+One of the most common problems when working on a computer is having too many tabs open at the same time.
+
+This happens everywhere:
+
+* Web browsers such as Chrome, Brave, Edge, Firefox, and Opera.
+* File Explorer.
+* VSCode and other code editors.
+* Terminal applications.
+* Text editors.
+* Any application that uses tabs.
+
+After opening dozens of tabs, it becomes difficult to quickly move to the next or previous tab.
+
+The standard solution is to click tabs manually with the mouse. However, this requires moving the cursor all the way to the tab bar, locating the correct tab, and clicking it.
+
+Another option is to use keyboard shortcuts such as:
+
+* <kbd>Ctrl+Tab</kbd>
+* <kbd>Ctrl+Shift+Tab</kbd>
+
+But many users find these shortcuts inconvenient.
+
+### A Faster Way
+
+This feature allows you to switch tabs directly with the mouse wheel.
+
+Simply:
+
+* Hold <kbd>Shift</kbd>.
+* Turn the mouse wheel.
+
+Wheel direction determines which tab becomes active:
+
+* Wheel up → previous tab.
+* Wheel down → next tab.
+
+This allows you to browse through tabs almost as naturally as scrolling a document.
+
+### Why This Is Useful
+
+When working with many tabs, you often do not know exactly which tab you need.
+
+You can simply scroll through them one by one until you reach the desired tab.
+
+This is especially useful when:
+
+* Comparing multiple web pages.
+* Reading documentation.
+* Working with many source code files in VSCode.
+* Managing many folders in File Explorer.
+* Switching between multiple log files or text documents.
+* Researching information with dozens of browser tabs open.
+
+### Faster Than Clicking Tabs
+
+Using the mouse wheel is often faster than:
+
+* Moving the cursor to the tab bar.
+* Finding a small tab among many others.
+* Clicking repeatedly.
+
+Your cursor can stay exactly where you are already working.
+
+You do not need to interrupt your workflow.
+
+### Works Everywhere
+
+Unlike browser-specific extensions, this feature works consistently across many applications that support tabs.
+
+Examples include:
+
+* Chrome
+* Brave
+* Edge
+* Firefox
+* File Explorer
+* VSCode
+* Notepad++
+* Many other tab-based applications
+
+---
+
+
+## Scroll Page to Top or Bottom with the Mouse Wheel
+
+**How do I quickly scroll to the top of a page? How do I jump to the bottom of a webpage without dragging the scrollbar? How can I scroll to the beginning or end of a document using the mouse wheel? How do I disable Ctrl+Wheel zoom in Chrome, Edge, Brave, Firefox, and File Explorer?**
+
+One of the most common actions performed on a computer is scrolling.
+
+Every day people scroll through:
+
+* Web pages.
+* Documentation.
+* Source code.
+* PDF files.
+* Text documents.
+* File Explorer folders.
+* Search results.
+
+Very often you need to instantly jump to the very top or the very bottom of a page.
+
+### The Problem
+
+The standard methods are not very convenient:
+
+* Drag the scrollbar manually.
+* Press <kbd>Home</kbd> or <kbd>End</kbd>.
+* Use <kbd>Page Up</kbd> and <kbd>Page Down</kbd> repeatedly.
+* Continuously spin the mouse wheel.
+
+All of these methods require extra movement or take too much time.
+
+This becomes especially annoying on:
+
+* Very long webpages.
+* Documentation websites.
+* Source code files.
+* Log files.
+* Large folders containing thousands of files.
+
+### The Solution
+
+This feature assigns one of the easiest keys on the keyboard:
+
+<kbd>Ctrl</kbd>
+
+to page navigation.
+
+Simply:
+
+* Hold <kbd>Ctrl</kbd>.
+* Turn the mouse wheel.
+
+Actions:
+
+* <kbd>Ctrl</kbd> + Wheel Up → Jump to the top.
+* <kbd>Ctrl</kbd> + Wheel Down → Jump to the bottom.
+
+Instead of scrolling through thousands of lines, you arrive instantly.
+
+### Why Ctrl?
+
+The Ctrl key is one of the easiest keys to press.
+
+It is located at the edge of the keyboard and can be reached instantly without looking.
+
+Because of this, it is ideal for actions that are performed constantly throughout the day.
+
+### What About Browser Zoom?
+
+Normally:
+
+<kbd>Ctrl</kbd> + Mouse Wheel
+
+changes page zoom.
+
+This is the default behavior in most browsers and many Windows applications.
+
+### Why Replace Ctrl+Wheel?
+
+Page zoom is useful occasionally.
+
+However, jumping to the top or bottom of a page is something many users do far more frequently.
+
+The standard Ctrl+Wheel zoom shortcut also creates a common problem:
+
+Users accidentally rotate the wheel while holding Ctrl.
+
+As a result:
+
+* Text suddenly becomes too large.
+* Text suddenly becomes too small.
+* Images become incorrectly scaled.
+* File Explorer thumbnail sizes change unexpectedly.
+* Websites appear broken.
+* Users must manually reset zoom.
+
+This accidental zooming is one of the most common browser annoyances.
+
+Many people search for solutions such as:
+
+* Disable Ctrl+Mouse Wheel zoom.
+* Prevent browser zooming.
+* Stop accidental zoom changes.
+* Disable Ctrl+Wheel in Chrome.
+* Disable Ctrl+Wheel in Edge.
+* Disable Ctrl+Wheel in Brave.
+* Disable Ctrl+Wheel in Firefox.
+
+This feature solves that problem by replacing Ctrl+Wheel with a more useful action.
+
+### How to Zoom Instead
+
+Since Ctrl+Wheel is reassigned, zooming can still be performed using:
+
+* <kbd>Ctrl</kbd> + <kbd>+</kbd>
+* <kbd>Ctrl</kbd> + <kbd>-</kbd>
+* <kbd>Ctrl</kbd> + <kbd>Win</kbd> + Wheel
+
+These methods continue to work normally.
+
+### File Explorer Support
+
+The same zoom shortcut normally changes thumbnail sizes inside File Explorer.
+
+### Selecting Text While Scrolling
+
+An additional feature is available:
+
+Hold:
+
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd>
+
+and turn the wheel.
+
+Instead of simply moving to the top or bottom, text or files are selected.
+
+Actions:
+
+* Wheel Up → Extend selection upward.
+* Wheel Down → Extend selection downward.
+
+This is useful for:
+
+* Selecting multiple files.
+* Selecting large blocks of text.
+* Selecting code.
+* Selecting log entries.
+* Selecting document sections.
+
+### Useful For
+
+* Chrome
+* Brave
+* Edge
+* Firefox
+* File Explorer
+* VSCode
+* Notepad++
+* Word processors
+* Documentation websites
+* Source code browsing
+* Large folders
+
+### Scrolls the Page to Top/Bottom by Wheel
+
+Hold <kbd>Ctrl</kbd> and turn the mouse wheel.
+
+* Wheel Up → Scroll instantly to the top.
+* Wheel Down → Scroll instantly to the bottom.
+
+If <kbd>Shift</kbd> is also held:
+
+* Wheel Up → Select text or files upward.
+* Wheel Down → Select text or files downward.
+
+### Benefits
+
+* Instant navigation to the top of a page.
+* Instant navigation to the bottom of a page.
+* Faster than using scrollbars.
+* Faster than Home and End keys.
+* Prevents accidental browser zooming.
+* Prevents accidental thumbnail resizing in File Explorer.
+* Works with text, documents, code, and files.
+* Makes long pages much easier to navigate.
+* Ideal for heavy browser and File Explorer users.
+
+
+---
+
+
+
 
 
 
