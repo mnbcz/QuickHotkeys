@@ -1,14 +1,10 @@
 # QuickHotkeys 🚀 — Advanced Windows Productivity Tool (Mouse Gestures, Window Management, Hotkeys)
 
-**QuickHotkeys** is a powerful productivity automation tool for Windows that combines:
-- advanced window management
-- mouse gestures
-- smart hotkeys
-- fast text input tools
+**QuickHotkeys** is a powerful productivity tool for Windows.
 
 It is designed for people who work on PC all day and want to **control everything faster, without a mouse menu or unnecessary clicks**.
 
-It combines **40+ productivity functions ** into a single lightweight background tool.
+It combines **40+ productivity functions** into a single lightweight background tool.
 
 ---
 
@@ -37,107 +33,120 @@ Topics covered:
 - Productivity automation with hotkeys
 - Real workflow examples for faster work
 
-## ⚡ Why QuickHotkeys?
 
-If you work with:
-- browsers (Chrome, Firefox, etc.)
-- multiple windows
-- text editing
-- file management
+# Windows Productivity Toolkit – 40+ AutoHotkey Scripts, Hotkeys, Mouse Gestures and Window Management Tools
 
-then QuickHotkeys helps you:
-- move windows instantly
-- resize without borders
-- control tabs with mouse gestures
-- reduce repetitive actions
-- speed up typing and navigation
+**How to make Windows faster and more convenient? Looking for the best AutoHotkey scripts? Need better hotkeys, window management, mouse gestures, sticky keys, browser shortcuts, tab management, and productivity tools?**
 
-👉 This is a **Windows productivity engine**.
+This project is a collection of more than **40 productivity tools and AutoHotkey scripts** designed to make Windows faster, more convenient, and more professional to use.
 
----
+Many users eventually search for AutoHotkey solutions to solve everyday problems:
 
-## 🧠 Key Features
+* Move windows faster.
+* Resize windows more conveniently.
+* Close tabs quicker.
+* Restore closed tabs.
+* Switch between windows faster.
+* Remember window sizes.
+* Create custom hotkeys.
+* Improve keyboard layout switching.
+* Add mouse gestures.
+* Hide desktop icons.
+* Remove title bars.
+* Make windows transparent.
+* Disable annoying browser popups.
+* Use sticky keys more effectively.
+* Automate repetitive tasks.
 
-### 🪟 Advanced Window Management (AltDrag-like control)
-- Move windows from anywhere (not just title bar)
-- Resize windows by edges or free drag
-- Snap windows to screen edges and center
-- Remember window sizes and positions
-- Always on Top mode
-- Transparency control
-- Minimize / maximize via mouse wheel
+Usually this means searching the Internet, finding a script, modifying it, debugging it, and maintaining it yourself.
 
----
+Before writing your own AutoHotkey script, check whether the feature already exists in this collection.
 
-### 🖱 Mouse Gestures (Power Feature)
-Hold right mouse button and draw gestures:
+Many of the most commonly requested Windows productivity features have already been implemented, tested, and integrated into a single application.
 
-- ⬅➡ switch browser tabs
-- ↘↖ (diagonal from top-right to bottom-left) → Close tab  
-- ↗↙ (diagonal from bottom-left to top-right) → Restore closed tab  
-- ↘ (top-left to bottom-right diagonal / close gesture area) → Close window  
+## Why use this instead of separate scripts?
 
-- ✍ draw letters for actions:
-  - `C` → Copy
-  - `V` → Paste
-  - `X` → Cut
-  - `S` → Save
-  - `F` → Find
+Most AutoHotkey users eventually accumulate many small scripts.
 
-👉 Fully customizable gesture system.
+One script for window dragging.
 
----
+Another script for transparency.
 
-### 🌐 Browser Productivity
-- Open links instantly with mouse button combinations
-- Scroll tabs with wheel
-- Close tabs with hotkeys
-- Fast navigation between pages
-- Replace slow UI actions with gestures
+Another script for mouse gestures.
 
----
+Another script for hotkeys.
 
-### ⌨ Smart Hotkeys System
-- Sticky keys (press sequentially instead of combinations)
-- Custom key remapping
-- Disable dangerous system hotkeys
-- Window switching via wheel
-- Fast Enter / Backspace / navigation tools
+Another script for browser shortcuts.
 
----
+Managing many separate scripts becomes difficult.
 
-### 📦 Text & Input Automation
-- Auto-replace shortcuts (e.g. `-== → —`)
-- Fast symbols repetition
-- Date/time insertion shortcuts
-- Email auto-fill
-- Arrow shortcuts (↑ ↓ ← →)
+This project combines all these features into a single installer and a single application.
 
----
+No need to install, configure, update, and troubleshoot dozens of separate scripts.
 
-### 🧩 File Explorer Enhancements
-- Quick preview / details panel
-- Tree view toggle
-- Faster navigation inside Explorer
+## What happens after installation?
 
----
+This is not a typical Windows application.
 
-### 🔒 Safety Features
-- Disable unwanted system hotkeys
-- Prevent accidental file deletion shortcuts
-- Runs silently in system tray
-- Auto-start with Windows
+After installation, no main window appears.
 
----
+Many users expect a normal application window and assume that nothing happened.
 
-## 🧰 Example Use Cases
+In reality, the program works mostly in the background.
 
-- Move windows without dragging title bar
-- Switch browser tabs using gestures
-- Copy/paste without Ctrl+C / Ctrl+V
-- Navigate files faster in Explorer
-- Control everything with one hand
-- Reduce repetitive PC actions
+It extends Windows with dozens of productivity features, additional hotkeys, mouse shortcuts, window-management tools, and workflow improvements.
+
+Most of its functionality becomes available immediately after installation.
+
+Because many features work globally throughout the system, it is highly recommended to review the documentation to see what capabilities are available.
+
+## Why was this created?
+
+If you watch experienced developers, power users, YouTubers, system administrators, or other professionals, you may notice that they work with Windows much faster.
+
+Windows move instantly.
+
+Tabs open and close quickly.
+
+Keyboard shortcuts seem effortless.
+
+Text editing is faster.
+
+Professionals often rely on better tools, better shortcuts, automation, and workflow optimizations.
+
+This project brings many of those productivity improvements into a single package.
+
+## Main Areas of Improvement
+
+* Window management.
+* Window dragging and resizing.
+* Browser navigation.
+* Tab management.
+* Mouse gestures.
+* Custom hotkeys.
+* Sticky keys.
+* Keyboard layout switching.
+* Text editing shortcuts.
+* File Explorer improvements.
+* Transparency and visual tools.
+* Full-screen enhancements.
+* Automation of repetitive actions.
+
+## Who Is This For?
+
+* Developers.
+* System administrators.
+* Content creators.
+* YouTubers.
+* Office workers.
+* Power users.
+* Anyone who spends many hours every day using Windows.
+
+If Windows often feels slow, inconvenient, repetitive, or frustrating, this toolkit provides dozens of small improvements that together can significantly speed up everyday work.
+
+See the full feature list below.
+
+
 
 ---
 
@@ -164,6 +173,8 @@ Normally, Windows shows the Taskbar when you hover the bottom edge — this can 
 - fullscreen apps
 - multiple windows
 - design / coding / multitasking setups
+
+---
 
 
 ## Fix Video Files (Repair Video Thumbnails, Metadata and File Properties)
@@ -208,6 +219,8 @@ This is especially useful for videos downloaded from the Internet, screen record
 4. Choose **Fix Video Files**.
 
 The utility will repair damaged video metadata, restore thumbnail previews, unlock editable file properties, and improve compatibility with Windows File Explorer and Windows Search.
+
+---
 
 
 ## Remember Window Sizes (Save Window Size and Position)
@@ -299,6 +312,7 @@ The window will then return to its original Windows behavior.
 >
 > See the **Sticky Keys** documentation for more information.
 
+---
 
 
 ## Remove "To exit FullScreen press Esc" message in Chrome, Brave and Edge
@@ -344,6 +358,7 @@ After enabling this module, entering Full Screen mode becomes cleaner and less d
 > **Tip:** This feature is enabled by default, so the notification is automatically hidden in supported browsers without additional configuration.
 
 
+---
 
 
 ## Hotkey Aliases and Language Switching
@@ -408,6 +423,7 @@ For example:
 
 means the alias will only work inside **File Explorer** windows.
 
+---
 
 
 ## Alt+Tab on Screen Corner
@@ -453,6 +469,7 @@ For example, if the value is set to `10`, moving the cursor within 10 pixels of 
 * Replace frequent <kbd>Alt+Tab</kbd> key presses with a simple mouse movement.
 * Faster multitasking in Windows.
 
+---
 
 
 ## Autoreplace Words
@@ -539,7 +556,7 @@ Result:
 
 Autoreplacements work independently of the current keyboard layout. The same shortcuts work in any language.
 
-
+---
 
 ## Hold Escape to Shut Down the Computer
 
@@ -595,6 +612,7 @@ This helps prevent accidental activation.
 * One-key access to Sleep mode.
 
 
+---
 
 
 ## Mouse Gestures for Windows
@@ -777,6 +795,7 @@ Mouse gestures are especially useful if you:
 Once learned, gestures often become faster than keyboard shortcuts.
 
 
+---
 
 
 ## Sticky Keys
@@ -997,6 +1016,7 @@ This feature provides that functionality out of the box.
 * More convenient than the built-in Windows Sticky Keys feature.
 
 
+---
 
 
 ## Click on Links Faster
@@ -1105,7 +1125,7 @@ then opening links with two mouse buttons can quickly become one of the most fre
 
 After getting used to it, opening links through the right-click menu feels surprisingly slow.
 
-
+---
 
 
 ## Move & Resize Windows
@@ -2021,11 +2041,770 @@ If <kbd>Shift</kbd> is also held:
 
 
 
+## Hide/Show Desktop Icons
+
+**How do I hide desktop icons in Windows? How do I quickly show or hide desktop shortcuts? Is there a hotkey for desktop icons?**
+
+Desktop icons are useful, but they often get in the way.
+
+Many users keep dozens or even hundreds of files, folders, and shortcuts on the desktop.
+
+This creates several problems:
+
+* The desktop looks cluttered.
+* Icons distract from work.
+* Desktop recordings look unprofessional.
+
+This is especially important for:
+
+* YouTubers.
+* Streamers.
+* Teachers.
+* Anyone recording tutorials or screencasts.
+
+### The Problem
+
+Windows already allows desktop icons to be hidden.
+
+However, the standard method is slow.
+
+You need to:
+
+1. Right-click on the desktop.
+2. Open the **View** submenu.
+3. Click **Show desktop icons**.
+
+This is inconvenient if you need to do it frequently.
+
+### A Faster Solution
+
+This feature allows you to hide or show all desktop icons instantly using a single hotkey.
+
+By default:
+
+<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>D</kbd>
+
+The letter **D** stands for **Desktop**, making the shortcut easy to remember.
+
+### Why Ctrl + Win?
+
+Most hotkeys in this program start with:
+
+<kbd>Ctrl</kbd> + <kbd>Win</kbd>
+
+These are the two outermost keys on the keyboard.
+
+Because of this:
+
+* They are easy to find without looking.
+* Easy to remember.
+* Easy to press.
+* Consistent across many features.
+
+### Perfect for Screen Recording
+
+One of the most common uses is creating clean screen recordings.
+
+Before recording:
+
+* Press <kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>D</kbd>.
+* All desktop icons disappear.
+
+Your desktop immediately becomes clean and professional.
+
+When recording is finished:
+
+* Press the same hotkey again.
+* All icons return exactly as they were.
+
+
+---
+
+
+### Remove Window Title Bar (Caption)
+
+**How to remove the title bar from a window? How to hide the caption in Windows?**
+
+Many users search for ways to remove the window title bar to gain extra screen space. This is especially useful on laptops and smaller monitors, where every pixel matters.
+
+The title bar (caption) at the top of a window takes up valuable vertical space. While it may seem small, removing it can make applications feel noticeably larger and less cluttered.
+
+Common use cases:
+
+* More space for code editors such as VS Code.
+* More room for video editing and graphic design software.
+* Cleaner screen recordings and YouTube tutorials.
+* Minimalistic desktop setups.
+* Kiosk applications and custom workspaces.
+* Removing unnecessary window decorations.
+
+When recording screencasts, windows without title bars often look cleaner and more professional. Viewers see only the content, without the extra window frame and caption area.
+
+This feature allows you to quickly remove or restore the native Windows title bar from supported applications.
+
+Once the title bar is hidden, the window can still be managed easily:
+
+* Move the window by using the program's **Move & Resize Window** feature.
+* Minimize or maximize the window using mouse wheel hotkeys.
+* Restore the title bar at any time.
+
+### What is a Window Caption?
+
+The caption is the top part of a standard Windows window that contains:
+
+* The window title.
+* Minimize button.
+* Maximize button.
+* Close button.
+
+Many users search for terms such as:
+
+* remove window title bar
+* hide caption bar
+* hide window frame
+* remove title bar in Windows
+* borderless window
+* frameless window
+* maximize workspace
+* hide application title bar
+* remove window decorations
+* make window borderless
+
+### Feature
+
+**Removes or restores the native TitleBar (Caption) of the active window.**
+
+> Note: This only works with applications that use the standard Windows title bar. Applications with custom interfaces may not support this feature.
+
+**Hotkey:** `Ctrl + Win + C`
+
+> **Tip:** The letter **C** stands for **Caption**, making the hotkey easy to remember. After hiding the title bar, you can still move the window using the built-in Move & Resize Window feature and control the window with mouse wheel shortcuts.
+
+---
+
+
+## Always On Top Window
+
+**How to make a window stay on top? How to keep a window above all other windows? How to disable Always On Top mode?**
+
+Sometimes it is useful to keep a window above all other windows.
+
+For example:
+
+* Watching a YouTube video while working.
+* Keeping a calculator visible.
+* Monitoring a chat window.
+* Viewing notes while writing code.
+* Following instructions from a tutorial.
+
+However, the opposite problem is also very common.
+
+Sometimes an application enables **Always On Top** mode, and the window permanently stays above all other windows. It covers other applications and constantly gets in the way.
+
+Many users search for:
+
+* disable always on top
+* remove always on top window
+* window stays above everything
+* turn off topmost window
+* window always in front
+* make window normal again
+* force window behind other windows
+* window covers everything
+
+Windows does not provide a universal hotkey for controlling this feature in all applications.
+
+This feature allows you to instantly switch any window between normal mode and **Always On Top** mode.
+
+Simply move the mouse cursor over the desired window and press:
+
+`Ctrl + Win + T`
+
+The window will immediately become permanently visible above all other windows.
+
+Press the same hotkey again to return the window to normal behavior.
+
+### Typical Uses
+
+* Keep videos visible while working.
+* Keep reference material above other applications.
+* Keep a file manager visible while copying files.
+* Keep a music player on screen.
+* Keep monitoring tools visible.
+
+**Hotkey:** `Ctrl + Win + T`
+
+> **Tip:** The letter **T** stands for **Top**, making the shortcut easy to remember.
+
+---
+
+
+## Set Window Transparency / Change contrast between background and text
+
+**How to make a window transparent in Windows? How to adjust window transparency? How to make VSCode transparent? How to make a browser transparent?**
+
+Sometimes it is difficult to read text on the screen. This can happen when reading web pages, documentation, PDF files, source code in VSCode, terminal windows, or any other application.
+
+Changing window transparency can make text easier to read.
+
+This is especially common when:
+
+* Reading documentation.
+* Working with VSCode.
+* Reading web pages.
+* Working on a small laptop screen.
+
+Many users search for:
+
+* transparent window Windows
+* make window transparent
+* adjust window opacity
+* transparent VSCode
+* transparent browser window
+* transparent File Explorer
+* window transparency tool
+* opacity control Windows
+
+Reducing a window's opacity can make the text more readable.
+
+Many developers and content creators also prefer slightly transparent windows because they look more modern and professional during screen recordings.
+
+### How it works
+
+Press:
+
+`Ctrl + Win + Right Mouse Button`
+
+The window under the mouse cursor becomes transparent.
+
+To disable transparency and restore the normal appearance, press the same hotkey again and release all keys.
+
+### Adjusting Transparency
+
+After transparency mode is enabled:
+
+1. Hold `Ctrl + Win`.
+2. Release the `Right Mouse Button`.
+3. Rotate the mouse wheel.
+
+The mouse wheel changes the transparency level in real time.
+
+This allows you to quickly find a comfortable opacity level for any application.
+
+
+---
+
+
+## Focus Window
+
+**How to activate a window without clicking on it? How to focus a window without accidentally clicking links, buttons, or text?**
+
+A common problem when working with many windows is that you often need to activate a window without actually clicking inside it.
+
+Normally, activating a window requires a left mouse click. However, this can cause unwanted actions:
+
+* Clicking a button.
+* Opening a link.
+* Selecting text.
+* Moving the cursor position in an editor.
+* Triggering controls accidentally.
+
+This is especially annoying when windows overlap and you only want to make one of them active.
+
+### Solution
+
+Simply move the mouse cursor over the desired window and click the **Middle Mouse Button**.
+
+The window becomes active and moves to the foreground, but no buttons, links, or controls inside the window are pressed.
+
+This provides a fast and safe way to switch between overlapping windows.
+
+### Typical Uses
+
+* Activate a browser window without clicking a link.
+* Activate VSCode without moving the text cursor.
+* Activate File Explorer without selecting files.
+* Bring a window to the front when several windows overlap.
+* Switch between applications without accidental clicks.
+
+### Feature
+
+Activates the window under the mouse cursor without performing a normal left-click action.
+
+**Default hotkey:** `Middle Mouse Button`
+
+---
+
+## Send Window To Bottom
+
+**How to send a window behind all other windows? How to move a window to the back? How to hide a window without minimizing it?**
+
+Sometimes a window gets in the way, but minimizing it is not the best solution.
+
+You may still need the window to remain open and visible later, but you want it out of the way for now.
+
+Windows does not provide a convenient universal shortcut for sending a window directly to the bottom of the window stack.
+
+Many users search for:
+
+* send window to back
+* move window behind all windows
+* put window under other windows
+* hide window without minimizing
+* lower window in z-order
+* send application to background
+
+### Solution
+
+Move the mouse cursor over the window.
+
+Hold the **Middle Mouse Button**, then press **Ctrl**.
+
+The selected window is immediately moved behind all other windows.
+
+Unlike minimizing, the window remains open and keeps its current size and position.
+
+### Typical Uses
+
+* Move a video player behind other applications.
+* Temporarily hide a browser window.
+* Organize multiple overlapping windows.
+* Keep windows open without cluttering the screen.
+
+
+### Feature
+
+Sends the window under the cursor to the bottom of the window stack, beneath all other windows.
+
+**Default hotkey:** Hold `Middle Mouse Button` and press `Ctrl`.
+
+---
 
 
 
+# Fast Copy and Paste Without Extra Keys
+
+**How to copy and paste faster in Windows? Faster alternative to Ctrl+C and Ctrl+V. One-handed copy and paste. Quick clipboard shortcuts.**
+
+Have you ever watched programmers, or power users on YouTube and wondered how they copy and paste so quickly?
+
+It often looks as if they have special keyboards with dedicated **Copy**, **Paste**, **Cut**, **Undo**, and other shortcut buttons.
+
+Most people assume that working this fast requires expensive hardware, additional macro keyboards.
+
+In reality, the biggest problem is that standard Windows shortcuts are not very convenient.
+
+To copy text, you normally need to press **Ctrl+C**.
+To paste, **Ctrl+V**.
+To cut, **Ctrl+X**.
+
+These shortcuts require moving your fingers across the keyboard, holding multiple keys at the same time, and constantly switching between the mouse and keyboard.
+
+When repeated hundreds of times per day, this becomes surprisingly slow.
+
+This feature provides a much faster workflow.
+
+Instead of moving your hand to the keyboard every few seconds, you can keep your hand on the mouse and trigger common actions instantly.
+
+### How it works
+
+First, select text or files.
+
+Then hold the **left mouse button** and press one of the configured modifier keys.
+
+### Available actions
+
+#### Copy
+
+Copies selected text or files.
+
+Default shortcut:
+
+`Hold Left Mouse Button + Ctrl`
+
+This performs the same action as **Ctrl+C**.
+
+#### Paste
+
+Pastes text from the clipboard.
+
+Default shortcut:
+
+`Hold Left Mouse Button + Win`
+
+This performs the same action as **Ctrl+V**.
+
+#### Cut
+
+Cuts selected text or files.
+
+Default shortcut:
+
+`Hold Left Mouse Button + Shift`
+
+This performs the same action as **Ctrl+X**.
+
+#### Enter
+
+Presses the **Enter** key.
+
+Default shortcut:
+
+`Hold Left Mouse Button + back quote` 
 
 
+#### Backspace
+
+Presses **Backspace**.
+
+Default shortcut:
+
+`Hold Left Mouse Button + Escape`
+
+Deletes the character to the left of the cursor.
+
+Useful when editing text without constantly reaching for the keyboard.
+
+### Why is this useful?
+
+* Faster copy and paste operations
+* Less keyboard movement
+* Faster text editing
+* Faster file management in File Explorer
+* Useful for programmers, writers, video editors, and office work
+* Works with text, files, folders, and many Windows applications
+* Reduces repetitive hand movement
+* Makes Windows feel significantly faster
+
+After using this feature for a few days, many users find it difficult to return to the traditional **Ctrl+C**, **Ctrl+V**, and **Ctrl+X** workflow because mouse-based shortcuts are often faster and more comfortable for frequently repeated actions.
+
+
+---
+
+
+# Move Cursor to Beginning or End of Line, Delete Whole Line Faster
+
+**How to move the cursor to the beginning of a line? How to jump to the end of a line with a hotkey? How to delete text to the beginning or end of a line? Faster text editing in Windows, editors, browsers, IDEs, and text fields.**
+
+One of the most common actions when editing text is moving the cursor to the beginning or end of the current line.
+
+Windows does not provide convenient universal shortcuts for some of these operations.
+
+Users often need to:
+
+* Jump to the beginning of a line.
+* Jump to the end of a line.
+* Select text to the beginning of a line.
+* Select text to the end of a line.
+* Delete everything before the cursor.
+* Delete everything after the cursor.
+
+These actions are performed constantly when:
+
+* Writing documents.
+* Programming.
+* Editing code.
+* Working in terminals.
+* Writing emails.
+* Editing configuration files.
+
+Normally, users have to repeatedly press arrow keys, hold multiple modifiers, or manually select text with the mouse.
+
+This is slow and interrupts typing.
+
+## Move Cursor to Beginning or End of Line
+
+### Move to Beginning of Line
+
+Hold:
+
+`Ctrl + Left Arrow`
+
+for a short moment.
+
+The cursor instantly moves to the beginning of the current line.
+
+#### Move to End of Line
+
+Hold:
+
+`Ctrl + Right Arrow`
+
+for a short moment.
+
+The cursor instantly moves to the end of the current line.
+
+This is much faster than repeatedly pressing arrow keys or reaching for the Home and End keys.
+
+### Select Text to Beginning or End of Line
+
+Need to select part of a sentence?
+
+Simply hold:
+
+`Shift + Ctrl + Left Arrow`
+
+to select text toward the beginning of the line.
+
+Or:
+
+`Shift + Ctrl + Right Arrow`
+
+to select text toward the end of the line.
+
+This makes text selection significantly faster when editing long lines of text or source code.
+
+## Delete to Beginning of Line
+
+### Erase Everything Before the Cursor
+
+Hold:
+
+`Ctrl + Backspace`
+
+for a short moment.
+
+The cursor moves to the beginning of the line and removes all text before the cursor.
+
+This is useful when:
+
+* Rewriting a sentence.
+* Deleting a command.
+* Clearing part of a URL.
+* Editing code.
+* Removing text without selecting it manually.
+
+## Delete to End of Line
+
+### Erase Everything After the Cursor
+
+Hold:
+
+`Ctrl + Delete`
+
+for a short moment.
+
+The cursor moves to the end of the line and removes all text after the cursor.
+
+This is useful when:
+
+* Truncating a sentence.
+* Removing unwanted code.
+* Deleting the remainder of a command.
+* Cleaning up text quickly.
+
+### Why Is This Useful?
+
+These are among the most frequently used editing operations, especially for programmers and heavy keyboard users.
+
+Instead of:
+
+* Repeatedly pressing arrow keys.
+* Reaching for Home and End.
+* Selecting text manually.
+* Holding several keys at once.
+
+You can perform common cursor navigation and text deletion tasks almost instantly.
+
+Once you get used to these shortcuts, text editing becomes noticeably faster.
+
+---
+
+# Automatically Repeat Symbols and Draw Separator Lines
+
+**How to quickly type a long line of dashes? How to create separator lines in text? Auto-repeat symbols while typing. Fast way to insert horizontal dividers, ASCII lines, and repeated characters in Windows.**
+
+One of the most common formatting tasks when writing text, code comments, documentation, notes, README files, forum posts, or configuration files is creating long separator lines.
+
+For example:
+
+```text
+----------------------------------------
+========================================
+++++++++++++++++++++++++++++++++++++++++
+........................................
+```
+
+Normally you have to:
+
+* Hold a key for a long time.
+* Copy and paste existing lines.
+* Use a text editor macro.
+* Use special plugins.
+
+This is inconvenient and interrupts typing.
+
+## How It Works
+
+This feature automatically generates a line of repeated symbols.
+
+Simply hold one of the supported keys for a short time.
+
+The program automatically inserts multiple copies of that symbol.
+
+### Supported Symbols
+
+The following characters are supported:
+
+```text
+-
++
+=
+.
+```
+
+### Examples
+
+Holding:
+
+```text
+-
+```
+
+creates:
+
+```text
+----------------------------------------
+```
+
+Holding:
+
+```text
+=
+```
+
+creates:
+
+```text
+========================================
+```
+
+Holding:
+
+```text
++
+```
+
+creates:
+
+```text
+++++++++++++++++++++++++++++++++++++++++
+```
+
+Holding:
+
+```text
+.
+```
+
+creates:
+
+```text
+........................................
+```
+
+## Adjustable Length
+
+The number of generated characters can be configured in the field below.
+
+This allows you to create:
+
+* Short separators.
+* Medium separators.
+* Full-width divider lines.
+
+depending on your workflow and screen size.
+
+
+---
+
+
+# Disable Dangerous or Unwanted Hotkeys
+
+**How to disable keyboard shortcuts in Windows? Disable Ctrl+D, disable browser shortcuts, disable File Explorer shortcuts, prevent accidental actions, customize keyboard shortcuts in Windows.**
+
+Windows and many applications contain dozens of built-in hotkeys.
+
+Some are useful.
+
+Some are rarely used.
+
+And some can be dangerous because they are easy to press accidentally.
+
+A single mistaken hotkey press can:
+
+* Delete a file.
+* Close a tab.
+* Close a window.
+* Navigate away from a page.
+* Move files.
+* Trigger unwanted actions.
+* Interrupt your workflow.
+
+Many users search for ways to disable specific keyboard shortcuts in Windows, File Explorer, browsers, editors, and other applications.
+
+This feature allows you to completely block selected hotkeys.
+
+When a disabled hotkey is pressed, nothing happens.
+
+The hotkey is intercepted and ignored.
+
+## Why Is This Useful?
+
+Accidental hotkey presses happen more often than most people realize.
+
+For example, File Explorer contains the shortcut:
+
+```text id="d1"}
+Ctrl + D
+```
+
+Accidentally pressing this shortcut can cause unwanted file operations.
+
+If you never use this shortcut, it is safer to disable it completely.
+
+Then an accidental press cannot cause problems.
+
+## Common Use Cases
+
+* Disable dangerous shortcuts.
+* Prevent accidental file operations.
+* Disable unused hotkeys.
+* Block conflicting shortcuts.
+* Override application shortcuts.
+* Reduce accidental key presses.
+* Customize keyboard behavior.
+* Create a safer working environment.
+
+## Scope-Specific Hotkeys
+
+Hotkeys can be disabled globally throughout Windows.
+
+Or they can be disabled only inside specific applications.
+
+For example, you may want a shortcut disabled only inside File Explorer while keeping it available everywhere else.
+
+This can be configured using the **Scope** field.
+
+### Example
+
+```text id="d2"}
+CabinetWClass
+```
+
+This scope corresponds to File Explorer windows.
+
+When specified, the hotkey will be disabled only in File Explorer.
+
+Other applications will continue to use the shortcut normally.
+
+## Examples
+
+### Disable Ctrl+D in File Explorer
+
+Useful if you frequently press it accidentally.
+
+---
 
 
 
